@@ -1,5 +1,6 @@
 (() => {
   const KEY = 'alidika-wholesale-batch-v1';
+  const LEAD_ENDPOINT = 'https://excretion-corrosive-doormat.ngrok-free.dev/api/site/lead';
   let batch = [];
   try { batch = JSON.parse(localStorage.getItem(KEY)) || []; } catch (_) {}
 
@@ -117,21 +118,84 @@
     save();
   });
 
-  orderForm.addEventListener('submit', async event => {
-    event.preventDefault();
+  function buildRequest() {
     const city = document.querySelector('#order-city').value.trim();
     const deadline = document.querySelector('#order-deadline').value.trim() || 'пока не определён';
     const contact = document.querySelector('#order-contact').value.trim() || 'не указано';
     const lines = batch.map((item, i) => `${i + 1}. ${item.product} — примерно ${item.quantity} шт.; ${item.branding.toLowerCase()}${item.note ? `; важно: ${item.note}` : ''}`);
     const message = `Здравствуйте! Хочу рассчитать оптовую партию АЛИДИКА.\n\n${lines.join('\n')}\n\nКуда отправлять: ${city}\nКогда нужна партия: ${deadline}\nКак обращаться: ${contact}\n\nПодскажите, пожалуйста, что ещё нужно уточнить для расчёта?`;
+    return { city, deadline, contact, message };
+  }
+
+  function encodePayload(data) {
+    const bytes = new TextEncoder().encode(JSON.stringify(data));
+    let binary = '';
+    bytes.forEach(byte => { binary += String.fromCharCode(byte); });
+    return btoa(binary);
+  }
+
+  document.querySelectorAll('input[name="send-way"]').forEach(radio => radio.addEventListener('change', () => {
+    const direct = document.querySelector('input[name="send-way"]:checked').value === 'direct';
+    document.querySelector('#direct-send').hidden = !direct;
+    document.querySelector('#social-send').hidden = direct;
+    document.querySelector('#order-phone').required = direct;
+    document.querySelector('#send-status').className = 'send-status';
+    document.querySelector('#send-status').textContent = '';
+  }));
+
+  document.querySelectorAll('[data-social-link]').forEach(link => link.addEventListener('click', async () => {
+    const { message } = buildRequest();
     try {
       await navigator.clipboard.writeText(message);
-      showToast('Заявка скопирована — вставьте её в сообщение');
+      showToast('Состав партии скопирован — вставьте его в сообщение');
     } catch (_) {
       window.prompt('Скопируйте заявку:', message);
     }
     localStorage.setItem('alidika-last-request', message);
-    window.open('https://vk.me/alidika_izh', '_blank', 'noopener');
+  }));
+
+  orderForm.addEventListener('submit', async event => {
+    event.preventDefault();
+    if (document.querySelector('input[name="send-way"]:checked').value !== 'direct') return;
+    const { city, deadline, contact, message } = buildRequest();
+    const phone = document.querySelector('#order-phone').value.trim();
+    const digits = phone.replace(/\D/g, '');
+    const status = document.querySelector('#send-status');
+    if (digits.length < 6 || digits.length > 15) {
+      status.className = 'send-status error';
+      status.textContent = 'Проверьте номер телефона: нам нужен номер, по которому можно с вами связаться.';
+      document.querySelector('#order-phone').focus();
+      return;
+    }
+    const submit = document.querySelector('#direct-submit');
+    submit.disabled = true;
+    submit.textContent = 'Отправляем…';
+    status.className = 'send-status';
+    status.textContent = '';
+    try {
+      const response = await fetch(LEAD_ENDPOINT, {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({
+          website: document.querySelector('#order-website').value,
+          payload: encodePayload({phone, city, deadline, contact, items: batch})
+        })
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.ok) throw new Error(result.error || 'Не удалось отправить заявку.');
+      localStorage.setItem('alidika-last-request', message);
+      status.className = 'send-status success';
+      status.textContent = 'Готово! Заявка уже у команды АЛИДИКИ в Telegram. Мы свяжемся с вами по указанному номеру.';
+      batch = [];
+      save();
+      orderForm.reset();
+    } catch (_) {
+      status.className = 'send-status error';
+      status.textContent = 'Сейчас заявка не отправилась. Попробуйте ещё раз или выберите «Напишу сам» — там доступны ВК и MAX.';
+    } finally {
+      submit.disabled = false;
+      submit.textContent = 'Отправить заявку прямо с сайта';
+    }
   });
 
   const lightbox = document.querySelector('#lightbox');

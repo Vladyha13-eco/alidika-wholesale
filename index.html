@@ -190,8 +190,21 @@
         <div class="field"><label for="order-deadline">Когда нужна партия? <span>необязательно</span></label><input id="order-deadline" autocomplete="off" placeholder="Например: к сентябрю"></div>
         <div class="field"><label for="order-contact">Как к вам обращаться? <span>необязательно</span></label><input id="order-contact" autocomplete="name" placeholder="Имя или компания"></div>
         <p class="price-note"><strong>Стоимость — после расчёта.</strong> Она зависит от изделия, материала, количества и нанесения.</p>
-        <button class="btn btn-primary full" type="submit">Отправить заявку во ВКонтакте</button>
-        <p class="privacy">Сайт сформирует текст и откроет диалог с АЛИДИКОЙ. Данные не отправляются автоматически.</p>
+        <fieldset class="send-choice"><legend>Как удобнее продолжить?</legend><div class="choice-row two"><label><input type="radio" name="send-way" value="direct" checked><span>Позвоните мне</span></label><label><input type="radio" name="send-way" value="social"><span>Напишу сам</span></label></div></fieldset>
+        <div id="direct-send">
+          <div class="field"><label for="order-phone">Телефон для связи</label><input id="order-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 999 123-45-67" required><small class="helper">Нужен только для связи по этой заявке.</small></div>
+          <div class="field honeypot" aria-hidden="true"><label for="order-website">Сайт</label><input id="order-website" tabindex="-1" autocomplete="off"></div>
+          <button class="btn btn-primary full" type="submit" id="direct-submit">Отправить заявку прямо с сайта</button>
+          <p class="privacy">Нажимая кнопку, вы разрешаете АЛИДИКЕ связаться с вами по указанному номеру. Заявка поступит нашей команде в Telegram.</p>
+        </div>
+        <div id="social-send" hidden>
+          <p class="social-note">Телефон оставлять не нужно. Скопируем состав партии и откроем выбранный диалог — останется вставить сообщение.</p>
+          <div class="social-actions">
+            <a class="btn social-vk" href="https://vk.me/alidika_izh" target="_blank" rel="noreferrer" data-social-link>Написать во ВКонтакте ↗</a>
+            <a class="btn social-max" href="https://max.ru/id183475103906_biz" target="_blank" rel="noreferrer" data-social-link>Написать в MAX ↗</a>
+          </div>
+        </div>
+        <div class="send-status" id="send-status" role="status" aria-live="polite"></div>
         <button class="clear-button" type="button" id="clear-batch">Очистить партию</button>
       </form>
     </section>
