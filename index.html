@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#15212a" />
+    <meta name="description" content="Оптовый пошив одежды, мерча, сумок и текстильных изделий в Ижевске. Семейное производство АЛИДИКА: от идеи и образца до готовой партии и отправки." />
+    <meta property="og:title" content="АЛИДИКА — оптовый пошив в Ижевске" />
+    <meta property="og:description" content="Одежда, мерч, сумки и текстиль под вашу задачу. Реальное семейное производство и понятная работа без производственного квеста." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://alidika-family.dustinmartin19321.chatgpt.site/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://alidika-family.dustinmartin19321.chatgpt.site/og.png" />
+    <title>Оптовый пошив одежды и мерча — АЛИДИКА, Ижевск</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap');
+      :root {
+        --ink:#15212a; --ink-2:#24333c; --paper:#fff; --ground:#f2f4f2;
+        --wine:#762f45; --wine-deep:#522131; --sage:#c8d2bd;
+        --coral:#b94a48; --mist:#e4e7e1; --muted:#5c6870;
+        --line:rgba(21,33,42,.15); --radius:18px; --shadow:0 24px 70px rgba(21,33,42,.12);
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth;scroll-padding-top:90px}
+      body{margin:0;background:var(--ground);color:var(--ink);font:16px/1.55 Onest,Arial,sans-serif;overflow-x:hidden}
+      img,video{display:block;width:100%}
+      a{color:inherit}
+      button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+      a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--sage);outline-offset:4px}
+      .wrap{width:min(1280px,calc(100% - 40px));margin-inline:auto}
+      .skip{position:fixed;left:14px;top:-80px;z-index:1000;background:var(--sage);padding:12px 16px;border-radius:8px;font-weight:800}
+      .skip:focus{top:14px}
+      .nav-shell{position:sticky;top:0;z-index:30;background:rgba(242,244,242,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+      .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+      .logo{font:700 20px/1 Unbounded,sans-serif;letter-spacing:-.06em;text-decoration:none}
+      .logo i{display:inline-block;width:9px;height:9px;margin-left:5px;border-radius:50%;background:var(--coral)}
+      .nav-links{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:700}
+      .nav-links a{text-decoration:none}
+      .nav-links a:not(.nav-cta):hover{color:var(--wine)}
+      .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:13px 20px;border:0;border-radius:999px;text-decoration:none;font-weight:800;cursor:pointer;transition:transform .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease}
+      .nav-cta,.btn.primary{background:var(--sage);color:var(--ink);box-shadow:0 8px 24px rgba(82,33,49,.13)}
+      .nav-cta:hover,.btn.primary:hover{transform:translateY(-2px);background:#d9e1d1}
+      .btn.dark{background:var(--ink);color:#fff}
+      .btn.dark:hover{background:var(--wine);transform:translateY(-2px)}
+      .btn.ghost{border:1px solid currentColor;background:transparent}
+      .btn.ghost:hover{background:rgba(255,255,255,.1)}
+      .hero{background:var(--ink);color:#fff;padding:clamp(28px,5vw,70px) 0 28px;position:relative;overflow:hidden}
+      .hero:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 83% 15%,rgba(118,47,69,.46),transparent 30%),linear-gradient(120deg,transparent 48%,rgba(200,210,189,.06) 48% 49%,transparent 49%);pointer-events:none}
+      .hero-grid{position:relative;display:grid;grid-template-columns:1.02fr .98fr;gap:18px;align-items:stretch}
+      .hero-copy{padding:clamp(22px,4vw,58px) 0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+      .eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:25px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+      .eyebrow:before{content:'';width:34px;border-top:2px dashed currentColor}
+      h1,h2,.display{font-family:Unbounded,sans-serif;letter-spacing:-.06em}
+      h1{max-width:790px;margin:0;font-size:clamp(42px,6.2vw,88px);line-height:.96;font-weight:600}
+      h1 em{color:#e8c7bd;font-style:normal}
+      .hero-lead{max-width:680px;margin:28px 0 0;color:#d6dee1;font-size:clamp(18px,1.6vw,23px);line-height:1.5}
+      .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+      .hero-hint{margin-top:16px;color:#9eaaaf;font-size:13px}
+      .hero-media{position:relative;min-height:620px;border-radius:18px 72px 18px 18px;overflow:hidden;background:#293944}
+      .hero-media img{height:100%;object-fit:cover}
+      .hero-media:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 52%,rgba(10,17,22,.76))}
+      .hero-label{position:absolute;z-index:2;left:22px;right:22px;bottom:22px;display:flex;justify-content:space-between;align-items:end;gap:20px}
+      .hero-label strong{display:block;font-size:17px}.hero-label span{color:#d7dfe2;font-size:13px}
+      .batch-mark{flex:0 0 auto;width:76px;height:76px;border:1px dashed var(--sage);border-radius:50%;display:grid;place-items:center;color:var(--sage);font-size:10px;font-weight:800;text-align:center;transform:rotate(7deg)}
+      .trust-strip{position:relative;margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(255,255,255,.16);border-radius:14px;overflow:hidden}
+      .trust-item{padding:18px 20px;border-right:1px solid rgba(255,255,255,.16)}
+      .trust-item:last-child{border:0}.trust-item b{display:block;color:var(--sage);font-size:12px;margin-bottom:3px}.trust-item span{color:#ccd5d9;font-size:13px}
+      .audience{padding:28px 0 0}
+      .audience-title{margin:0 0 14px;color:#657177;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+      .audience-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+      .audience-item{padding:18px 20px;border-right:1px solid var(--line)}
+      .audience-item:last-child{border-right:0}
+      .audience-item b{display:block;margin-bottom:4px;font-size:15px}
+      .audience-item span{color:var(--muted);font-size:12px;line-height:1.45}
+      .section{padding:clamp(76px,9vw,130px) 0}
+      .head{display:grid;grid-template-columns:.65fr 1.35fr;gap:38px;align-items:start;margin-bottom:46px}
+      h2{margin:0;font-size:clamp(36px,5vw,68px);line-height:1.04;font-weight:600}
+      .head p{max-width:650px;margin:7px 0 0 auto;color:var(--muted);font-size:18px}
+      .offer-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+      .offer{grid-column:span 4;min-height:370px;padding:28px;border:1px solid var(--line);border-radius:12px 38px 12px 12px;background:var(--paper);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+      .offer:nth-child(1),.offer:nth-child(5){grid-column:span 6}
+      .offer-top{display:flex;justify-content:space-between;gap:20px;color:var(--wine);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+      .offer h3{margin:32px 0 10px;font:600 clamp(25px,3vw,38px)/1.08 Unbounded,sans-serif;letter-spacing:-.05em}
+      .offer p{margin:0;color:var(--muted)}
+      .offer-photo{margin:24px -28px -28px;height:175px;overflow:hidden;background:var(--mist)}
+      .offer-photo img{height:100%;object-fit:cover}
+      .offer:nth-child(1){background:var(--wine);color:#fff}.offer:nth-child(1) p,.offer:nth-child(1) .offer-top{color:#f3dde4}
+      .proof-section{background:var(--paper)}
+      .proof-layout{display:grid;grid-template-columns:.95fr 1.05fr;gap:18px}
+      .film{position:relative;min-height:680px;overflow:hidden;border-radius:16px 64px 16px 16px;background:var(--ink)}
+      .film video{height:100%;min-height:680px;object-fit:cover}
+      .film:after{display:none}
+      .film-note{position:absolute;z-index:2;left:16px;top:16px;color:#fff;background:rgba(21,33,42,.84);backdrop-filter:blur(10px);padding:12px 15px;border-radius:10px;pointer-events:none}
+      .film-note b{font:600 15px/1.15 Unbounded,sans-serif;letter-spacing:-.04em}.film-note p{display:none}
+      .proof-copy{background:var(--ground);border:1px solid var(--line);border-radius:16px 64px 16px 16px;padding:clamp(34px,5vw,68px);display:flex;flex-direction:column;justify-content:space-between}
+      .proof-copy h2{font-size:clamp(35px,4.4vw,60px)}
+      .checklist{display:grid;gap:0;margin-top:34px;border-top:1px solid var(--line)}
+      .check{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:19px 0;border-bottom:1px solid var(--line)}
+      .check i{width:26px;height:26px;border-radius:50%;background:var(--wine);color:#fff;display:grid;place-items:center;font-style:normal;font-weight:800}
+      .check b{display:block}.check span{color:var(--muted);font-size:14px}
+      .works{background:var(--ink);color:#fff}
+      .works .head p{color:#b8c3c7}
+      .gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-auto-rows:250px;gap:12px}
+      .shot{position:relative;overflow:hidden;border-radius:10px 28px 10px 10px;background:#33434c}
+      .shot:first-child{grid-row:span 2}.shot:nth-child(4){grid-column:span 2}
+      .shot img{height:100%;object-fit:cover;transition:transform .35s ease}
+      .shot:hover img{transform:scale(1.025)}
+      .shot span{position:absolute;left:13px;bottom:13px;padding:8px 11px;border-radius:999px;background:rgba(21,33,42,.9);font-size:11px;font-weight:800}
+      .process{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+      .stage{min-height:270px;padding:28px 25px 10px;border-right:1px solid var(--line)}
+      .stage:first-child{padding-left:0}.stage:last-child{border:0}
+      .stage b{color:var(--wine);font-size:12px}.stage h3{margin:62px 0 10px;font-size:22px}.stage p{margin:0;color:var(--muted);font-size:14px}
+      .brief{background:var(--wine);color:#fff}
+      .brief-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+      .brief h2{font-size:clamp(38px,5.3vw,70px)}
+      .brief-copy p{max-width:540px;color:#e5e9ff;font-size:18px}
+      .brief-points{margin-top:30px;display:grid;gap:12px}
+      .brief-points span{display:flex;gap:10px;align-items:center}.brief-points i{font-style:normal;color:var(--sage);font-weight:800}
+      .form-card{background:var(--paper);color:var(--ink);padding:clamp(28px,4vw,48px);border-radius:14px 52px 14px 14px;box-shadow:var(--shadow)}
+      .form-card h3{margin:0 0 8px;font-size:26px}.form-card>p{margin:0 0 24px;color:var(--muted)}
+      .field{display:grid;gap:7px;margin-top:15px}.field label{font-size:13px;font-weight:800}
+      .field input,.field select{width:100%;height:52px;border:1px solid #cbd2d5;border-radius:10px;background:#fff;padding:0 14px;color:var(--ink);font:16px Onest,sans-serif}
+      .field input:focus,.field select:focus{border-color:var(--wine)}
+      .form-card .btn{width:100%;margin-top:20px}
+      .form-status{min-height:22px;margin:10px 0 0;color:var(--wine-deep);font-size:13px;font-weight:700}
+      .privacy{color:#7b858a;font-size:11px;line-height:1.4;margin-top:8px}
+      .faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+      details{border:1px solid var(--line);background:var(--paper);border-radius:12px 30px 12px 12px;padding:23px}
+      summary{cursor:pointer;font-weight:800;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:18px}
+      summary::-webkit-details-marker{display:none}summary:after{content:'+';color:var(--wine);font-size:22px}details[open] summary:after{content:'−'}
+      details p{margin:15px 0 0;color:var(--muted)}
+      .final{padding:0 0 30px}
+      .final-card{background:var(--sage);border:1px solid var(--line);border-radius:14px 60px 14px 14px;padding:clamp(40px,7vw,86px);text-align:center}
+      .final-card h2{max-width:980px;margin:auto}.final-card p{max-width:660px;margin:22px auto 30px;font-size:18px}
+      .retail-link{display:inline-block;margin-top:18px;font-size:13px;color:#4f5b62}
+      footer{min-height:130px;display:flex;align-items:center;justify-content:space-between;gap:30px;color:var(--muted);font-size:12px}
+      footer a{text-decoration:none}
+      .reveal{opacity:1;transform:none}
+      @media(max-width:960px){
+        .nav-links a:not(.nav-cta){display:none}.hero-grid,.proof-layout,.brief-grid{grid-template-columns:1fr}.hero-media{min-height:560px}
+        .trust-strip{grid-template-columns:1fr 1fr}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.16)}
+        .audience-grid{grid-template-columns:repeat(2,1fr)}.audience-item:nth-child(2){border-right:0}.audience-item:nth-child(-n+2){border-bottom:1px solid var(--line)}
+        .head{grid-template-columns:1fr}.head p{margin:0}.offer{grid-column:span 6!important}.gallery{grid-template-columns:1fr 1fr}.shot:nth-child(4){grid-column:auto}
+        .process{grid-template-columns:1fr 1fr}.stage:nth-child(2){border-right:0}
+      }
+      @media(max-width:600px){
+        .wrap{width:calc(100% - 24px)}.nav{min-height:68px}.logo{font-size:17px}.nav-cta{min-height:44px;padding:10px 13px;font-size:12px}
+        .hero{padding-top:16px}.hero-copy{padding-top:24px}h1{font-size:39px}.hero-actions{width:100%}.hero-actions .btn{width:100%}.hero-media{min-height:420px;border-radius:12px 42px 12px 12px}
+        .hero-label{left:16px;right:16px;bottom:16px}.batch-mark{display:none}.trust-strip{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.16)!important}
+        .audience-grid{grid-template-columns:1fr}.audience-item{border-right:0!important;border-bottom:1px solid var(--line)!important}.audience-item:last-child{border-bottom:0!important}
+        .trust-item:last-child{border-bottom:0!important}.section{padding:72px 0}.offer{grid-column:1/-1!important;min-height:340px}
+        .film,.film video{min-height:520px}.proof-copy{border-radius:12px 42px 12px 12px}.gallery{grid-template-columns:1fr;grid-auto-rows:310px}.shot:first-child{grid-row:auto}
+        .process{grid-template-columns:1fr}.stage,.stage:first-child{min-height:auto;padding:26px 0;border-right:0;border-bottom:1px solid var(--line)}.stage h3{margin-top:34px}
+        .faq{grid-template-columns:1fr}.form-card{padding:26px 20px;border-radius:12px 38px 12px 12px}.final-card{border-radius:12px 40px 12px 12px}
+        footer{padding:35px 0;align-items:flex-start;flex-direction:column}
+      }
+      @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Перейти к содержанию</a>
+    <div class="nav-shell">
+      <nav class="wrap nav" aria-label="Главное меню">
+        <a class="logo" href="#top" aria-label="АЛИДИКА, на главную">АЛИДИКА<i></i></a>
+        <div class="nav-links">
+          <a href="#products">Что шьём</a>
+          <a href="#production">Производство</a>
+          <a href="#works">Работы</a>
+          <a href="#how">Как заказать</a>
+          <a class="nav-cta" href="#brief">Получить расчёт</a>
+        </div>
+      </nav>
+    </div>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Оптовый пошив · своё производство в Ижевске</div>
+            <h1>Оптовый пошив <em>для бизнеса</em></h1>
+            <p class="hero-lead">Одежда, мерч, сумки и текстильные изделия для брендов, компаний, маркетплейсов, команд и мероприятий. Своё производство в Ижевске — от задачи и материалов до готовой партии и отправки.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#brief">Рассчитать оптовый заказ <span aria-hidden="true">↓</span></a>
+              <a class="btn ghost" href="https://vk.me/alidika_izh" target="_blank" rel="noreferrer">Сразу написать в VK <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-hint">Не нужно готовое техзадание: напишите, что требуется, примерное количество, срок и город.</div>
+          </div>
+          <div class="hero-media">
+            <img src="media/max-2026-07-22/139d4c86749416bb.webp" alt="Фирменный бомбер, изготовленный на производстве АЛИДИКА" fetchpriority="high" />
+            <div class="hero-label">
+              <div><strong>Настоящее изделие АЛИДИКА</strong><span>Ниже — видео производства и выполненные работы</span></div>
+              <div class="batch-mark">СДЕЛАНО<br>В ИЖЕВСКЕ</div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap trust-strip" aria-label="Ключевые факты">
+          <div class="trust-item"><b>Семейное производство</b><span>Люди, которые лично отвечают за результат</span></div>
+          <div class="trust-item"><b>Ижевск</b><span>Здесь кроим, шьём и наносим принты</span></div>
+          <div class="trust-item"><b>Под вашу задачу</b><span>От мерча до специальных изделий</span></div>
+          <div class="trust-item"><b>Отправка</b><span>По России и доступным направлениям</span></div>
+        </div>
+      </section>
+
+      <section class="wrap audience" aria-label="Кому подходит оптовое производство АЛИДИКА">
+        <p class="audience-title">С кем работаем</p>
+        <div class="audience-grid">
+          <div class="audience-item"><b>Бренды одежды</b><span>Коллекции и изделия под вашей маркой</span></div>
+          <div class="audience-item"><b>Компании и команды</b><span>Форма, корпоративная одежда и мерч</span></div>
+          <div class="audience-item"><b>Продавцы маркетплейсов</b><span>Партии изделий под вашу задачу</span></div>
+          <div class="audience-item"><b>События и сообщества</b><span>Одежда, сумки и текстиль для участников</span></div>
+        </div>
+      </section>
+
+      <section class="wrap section" id="products">
+        <div class="head reveal">
+          <div class="eyebrow">Что можно заказать</div>
+          <div><h2>Не каталог заготовок. Производство под задачу.</h2><p>Покажите идею или пример — подберём конструкцию, материал и способ нанесения. Ниже лишь часть того, что уже проходило через наши руки.</p></div>
+        </div>
+        <div class="offer-grid">
+          <article class="offer reveal"><div><div class="offer-top"><span>Для брендов</span><span>Одежда</span></div><h3>Футболки, худи, свитшоты</h3><p>Коллекции под вашей маркой, мерч для команды, события или сообщества.</p></div><div class="offer-photo"><img src="media/max-2026-07-22/8901064992c6a084.webp" alt="Футболка с крупным нанесением, изготовленная на производстве" loading="lazy" /></div></article>
+          <article class="offer reveal"><div><div class="offer-top"><span>Форма</span><span>Команды</span></div><h3>Бомберы и жилеты</h3><p>Фирменные изделия с нужными цветами, деталями и нанесением.</p></div><div class="offer-photo"><img src="media/max-2026-07-22/139d4c86749416bb.webp" alt="Чёрно-белый бомбер с фирменным нанесением" loading="lazy" /></div></article>
+          <article class="offer reveal"><div><div class="offer-top"><span>Текстиль</span><span>Аксессуары</span></div><h3>Сумки и рюкзаки</h3><p>Шопперы, поясные сумки, чехлы и другие изделия под конкретный сценарий.</p></div><div class="offer-photo"><img src="media/max-2026-07-22/62c54d7a4a68e8be.webp" alt="Четыре поясные сумки разных цветов" loading="lazy" /></div></article>
+          <article class="offer reveal"><div><div class="offer-top"><span>Нанесение</span><span>Детали</span></div><h3>Печать и фирменный стиль</h3><p>Помогаем сделать так, чтобы логотип или идея стали частью вещи, а не случайной наклейкой.</p></div><div class="offer-photo"><img src="media/max-2026-07-22/1482c70a48d46e83.webp" alt="Свитшот с фирменным нанесением" loading="lazy" /></div></article>
+          <article class="offer reveal"><div><div class="offer-top"><span>Нестандартное</span><span>Обсудим</span></div><h3>Если изделия нет в списке</h3><p>Не отбрасываем задачу по названию. Покажите, что нужно получить, — разберём возможность производства по материалам, конструкции и сроку.</p></div><div class="offer-photo"><img src="media/max-2026-07-22/bebeccd2d79e05da.webp" alt="Готовое текстильное изделие на производстве АЛИДИКА" loading="lazy" /></div></article>
+        </div>
+      </section>
+
+      <section class="proof-section section" id="production">
+        <div class="wrap">
+          <div class="head reveal"><div class="eyebrow">Доверие без декораций</div><div><h2>Это реальное производство. Вот оно.</h2><p>Не прячем процесс за каталожными картинками. В видео — работа, материалы и изделия такими, какие они есть внутри производства.</p></div></div>
+          <div class="proof-layout">
+            <div class="film reveal">
+              <video id="factory-video" autoplay muted loop controls playsinline preload="metadata" poster="media/production-reference-frame.jpg">
+                <source src="media/alidika-original-44s.mp4" type="video/mp4" />
+              </video>
+              <div class="film-note"><b>44 секунды внутри АЛИДИКИ</b><p>Нажмите воспроизведение и посмотрите своими глазами.</p></div>
+            </div>
+            <div class="proof-copy reveal">
+              <div><div class="eyebrow">Что остаётся у нас внутри</div><h2>Один заказ — одна понятная ответственность</h2></div>
+              <div class="checklist">
+                <div class="check"><i>✓</i><div><b>Разбираемся в задаче</b><span>Уточняем изделие, количество, размеры, нанесение, срок и город.</span></div></div>
+                <div class="check"><i>✓</i><div><b>Предлагаем решение</b><span>Объясняем, какой материал, конструкция и способ нанесения подходят.</span></div></div>
+                <div class="check"><i>✓</i><div><b>Производим в Ижевске</b><span>Крой, пошив, нанесение и контроль проходят руками нашей команды.</span></div></div>
+                <div class="check"><i>✓</i><div><b>Готовим к отправке</b><span>Упаковываем партию и согласуем доступный вариант доставки.</span></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works section" id="works">
+        <div class="wrap">
+          <div class="head reveal"><div class="eyebrow">Не слова, а изделия</div><div><h2>То, что уже сшили наши руки</h2><p>Разные задачи, материалы и форматы. Эти фотографии нужны не для идеальной витрины, а чтобы вы видели реальную работу.</p></div></div>
+          <div class="gallery reveal">
+            <div class="shot"><img src="media/max-2026-07-22/62c54d7a4a68e8be.webp" alt="Поясные сумки, изготовленные на производстве" loading="lazy" /><span>СУМКИ</span></div>
+            <div class="shot"><img src="media/max-2026-07-22/139d4c86749416bb.webp" alt="Фирменный бомбер на человеке" loading="lazy" /><span>БОМБЕРЫ</span></div>
+            <div class="shot"><img src="media/max-2026-07-22/62c54d7a4a68e8be.webp" alt="Поясные сумки до нанесения и после него" loading="lazy" /><span>СУМКИ</span></div>
+            <div class="shot"><img src="media/max-2026-07-22/a259fbbc54637cac.webp" alt="Красно-белые изделия на рабочем столе производства" loading="lazy" /><span>ФИРМЕННАЯ ОДЕЖДА</span></div>
+            <div class="shot"><img src="media/max-2026-07-22/8901064992c6a084.webp" alt="Футболка с большим принтом" loading="lazy" /><span>ПЕЧАТЬ</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap section" id="how">
+        <div class="head reveal"><div class="eyebrow">Как начинается заказ</div><div><h2>Без производственного квеста</h2><p>Не нужен идеальный бриф и знание швейных терминов. Достаточно ответить на несколько обычных вопросов.</p></div></div>
+        <div class="process reveal">
+          <div class="stage"><b>01</b><h3>Расскажите задачу</h3><p>Что нужно, примерно сколько, для кого, к какому сроку и в какой город.</p></div>
+          <div class="stage"><b>02</b><h3>Получите вопросы и расчёт</h3><p>Уточним важное, предложим решение и посчитаем заказ по вашим вводным.</p></div>
+          <div class="stage"><b>03</b><h3>Согласуйте детали</h3><p>Материал, конструкцию, размеры, нанесение и порядок производства.</p></div>
+          <div class="stage"><b>04</b><h3>Получите партию</h3><p>Изготовим, проверим, упакуем и передадим в согласованную доставку.</p></div>
+        </div>
+      </section>
+
+      <section class="brief section" id="brief">
+        <div class="wrap brief-grid">
+          <div class="brief-copy reveal">
+            <div class="eyebrow">Первый шаг занимает минуту</div>
+            <h2>Давайте посчитаем вашу задачу</h2>
+            <p>Заполните три поля. Мы соберём из них готовый текст, скопируем его и откроем диалог с АЛИДИКОЙ во ВКонтакте — останется вставить и отправить.</p>
+            <div class="brief-points">
+              <span><i>✓</i> Без регистрации на сайте</span>
+              <span><i>✓</i> Можно писать своими словами</span>
+              <span><i>✓</i> Если чего-то не знаете — так и укажите</span>
+            </div>
+          </div>
+          <form class="form-card reveal" id="lead-form">
+            <h3>Короткий мини-бриф</h3>
+            <p>Только то, что нужно для начала разговора.</p>
+            <div class="field"><label for="product">Что хотите заказать?</label><input id="product" name="product" required placeholder="Например: 100 худи с логотипом" autocomplete="off" /></div>
+            <div class="field"><label for="deadline">Когда нужна готовая партия?</label><input id="deadline" name="deadline" required placeholder="Например: до 15 сентября" autocomplete="off" /></div>
+            <div class="field"><label for="city">Куда отправлять?</label><input id="city" name="city" required placeholder="Город или регион" autocomplete="address-level2" /></div>
+            <button class="btn dark" type="submit">Скопировать задачу и открыть VK <span aria-hidden="true">↗</span></button>
+            <div class="form-status" id="form-status" aria-live="polite"></div>
+            <div class="privacy">Данные никуда не отправляются с сайта: текст копируется только на вашем устройстве.</div>
+          </form>
+        </div>
+      </section>
+
+      <section class="wrap section" id="faq">
+        <div class="head reveal"><div class="eyebrow">Коротко о главном</div><div><h2>Ответы до первого сообщения</h2><p>Чтобы вы сразу понимали, как мы работаем и с чего начать.</p></div></div>
+        <div class="faq">
+          <details class="reveal"><summary>Можно без готового технического задания?</summary><p>Да. Опишите задачу обычными словами и приложите примеры, если они есть. Поможем собрать необходимые вводные.</p></details>
+          <details class="reveal"><summary>Почему на сайте нет одной цены?</summary><p>Стоимость зависит от изделия, материала, количества, размеров, нанесения и срока. Поэтому сначала уточняем задачу, затем готовим расчёт.</p></details>
+          <details class="reveal"><summary>Можно обсудить пробный образец?</summary><p>Да, подходящий порядок работы и необходимость образца обсуждаем до запуска партии.</p></details>
+          <details class="reveal"><summary>Отправляете в другие города?</summary><p>Да, согласуем доступный вариант доставки по России и другим доступным направлениям.</p></details>
+          <details class="reveal"><summary>Где находится производство?</summary><p>Мы работаем в Ижевске. Здесь обсуждаем, кроим, шьём, наносим принты и контролируем результат.</p></details>
+          <details class="reveal"><summary>Что написать в первом сообщении?</summary><p>Изделие, примерное количество, нужен ли логотип или принт, желаемый срок и город. Если чего-то не знаете — так и напишите.</p></details>
+        </div>
+      </section>
+
+      <section class="wrap final">
+        <div class="final-card reveal">
+          <div class="eyebrow" style="justify-content:center">Можно начинать без длинного созвона</div>
+          <h2>Пришлите задачу. Остальное разложим по полочкам.</h2>
+          <p>Напишите изделие, количество, срок и город. Мы зададим уточняющие вопросы и поможем дойти до понятного расчёта.</p>
+          <a class="btn dark" href="https://vk.me/alidika_izh" target="_blank" rel="noreferrer">Написать АЛИДИКЕ во ВКонтакте <span aria-hidden="true">↗</span></a><br />
+          <a class="retail-link" href="shop.html">Ищу готовую вещь для себя →</a>
+        </div>
+        <footer>
+          <a class="logo" href="#top">АЛИДИКА<i></i></a>
+          <span>Семейное швейное производство · Ижевск</span>
+          <span>© 2026 · Сделано по-человечески</span>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      if (location.protocol === 'file:') {
+        document.querySelectorAll('[src^="media/"], [poster^="media/"]').forEach((element) => {
+          const attribute = element.hasAttribute('src') ? 'src' : 'poster';
+          element.setAttribute(attribute, `public/${element.getAttribute(attribute)}`);
+        });
+        const retailLink = document.querySelector('a[href="shop.html"]');
+        if (retailLink) retailLink.setAttribute('href', 'public/shop.html');
+      }
+
+      const reveal = () => document.querySelectorAll('.reveal:not(.seen)').forEach(el => {
+        if (el.getBoundingClientRect().top < innerHeight * .92) el.classList.add('seen');
+      });
+      addEventListener('scroll', reveal, {passive:true});
+      addEventListener('load', reveal);
+      addEventListener('load', () => document.getElementById('factory-video').play().catch(() => {}));
+
+      document.getElementById('lead-form').addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const product = document.getElementById('product').value.trim();
+        const deadline = document.getElementById('deadline').value.trim();
+        const city = document.getElementById('city').value.trim();
+        const text = `Здравствуйте! Хочу обсудить оптовый заказ.\n\nЧто нужно: ${product}\nСрок: ${deadline}\nГород доставки: ${city}\n\nПодскажите, пожалуйста, что ещё нужно уточнить для расчёта?`;
+        const status = document.getElementById('form-status');
+        try {
+          await navigator.clipboard.writeText(text);
+          status.textContent = 'Готово: текст скопирован. Открываем диалог — вставьте сообщение и отправьте.';
+        } catch {
+          status.textContent = 'Открываем диалог. Скопируйте введённые данные из формы вручную.';
+        }
+        window.location.href = 'https://vk.me/alidika_izh';
+      });
+    </script>
+  </body>
+</html>
