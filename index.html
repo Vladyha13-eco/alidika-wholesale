@@ -75,27 +75,51 @@
         <p>Выберите категории, укажите примерное количество и нанесение. Ничего оплачивать сейчас не нужно: сначала уточним детали и подготовим расчёт.</p>
       </div>
 
+      <div class="catalog-tools" aria-label="Фильтры каталога">
+        <button class="filter-chip active" type="button" data-filter="all">Всё</button>
+        <button class="filter-chip" type="button" data-filter="clothes">Одежда</button>
+        <button class="filter-chip" type="button" data-filter="uniform">Форма</button>
+        <button class="filter-chip" type="button" data-filter="bags">Сумки</button>
+        <button class="filter-chip" type="button" data-filter="custom">Нестандартное</button>
+      </div>
+
       <div class="catalog-grid">
-        <article class="product-card" data-product="Футболки">
+        <article class="product-card" data-product="Футболки" data-category="clothes" data-price="690">
           <div class="product-media"><img src="media/catalog-tshirt-batch-v2.png" alt="Футболка с нанесением и упакованная партия" loading="lazy"><span>Одежда</span></div>
-          <div class="product-body"><h3>Футболки</h3><p>Для бренда, команды, мероприятия или корпоративного мерча.</p><button class="add-button" type="button">Добавить в партию <span>+</span></button></div>
+          <div class="product-body"><div class="product-title"><h3>Футболки</h3><strong>от 690 ₽/шт.</strong></div><p>Хлопок с лайкрой 92/8 · плотность 200 г/м² · цена при заказе от 100 шт. с одноцветным нанесением А4.</p><div class="product-tags"><span>от 100 шт.</span><span>с нанесением</span><span>Ижевск</span></div><button class="add-button" type="button">Рассчитать футболки <span>+</span></button></div>
         </article>
-        <article class="product-card" data-product="Худи и свитшоты">
+        <article class="product-card" data-product="Худи и свитшоты" data-category="clothes" data-price="1590">
           <div class="product-media"><img src="media/max-2026-07-22/1482c70a48d46e83.webp" alt="Свитшот с фирменным нанесением" loading="lazy"><span>Одежда</span></div>
-          <div class="product-body"><h3>Худи и свитшоты</h3><p>Тёплая часть коллекции с вашим стилем и нанесением.</p><button class="add-button" type="button">Добавить в партию <span>+</span></button></div>
+          <div class="product-body"><div class="product-title"><h3>Худи и свитшоты</h3><strong>от 1 590 ₽/шт.</strong></div><p>Плотная трёхнитка 320 г/м² · цена при заказе от 100 шт. с одноцветным нанесением А4.</p><div class="product-tags"><span>от 100 шт.</span><span>плотная ткань</span><span>с нанесением</span></div><button class="add-button" type="button">Рассчитать худи <span>+</span></button></div>
         </article>
-        <article class="product-card featured" data-product="Бомберы и жилеты">
+        <article class="product-card featured" data-product="Бомберы и жилеты" data-category="uniform" data-price="0">
           <div class="product-media"><img src="media/hero-bomber-packing-v2.png" alt="Фирменный бомбер на производстве" loading="lazy"><span>Форма</span></div>
-          <div class="product-body"><h3>Бомберы и жилеты</h3><p>Фирменные изделия с нужными цветами, деталями и нанесением.</p><button class="add-button" type="button">Добавить в партию <span>+</span></button></div>
+          <div class="product-body"><div class="product-title"><h3>Бомберы и жилеты</h3><strong>по расчёту</strong></div><p>Фирменные изделия с нужными цветами, деталями, карманами и нанесением.</p><div class="product-tags"><span>под задачу</span><span>цвета бренда</span><span>размерный ряд</span></div><button class="add-button" type="button">Обсудить модель <span>+</span></button></div>
         </article>
-        <article class="product-card" data-product="Сумки и рюкзаки">
+        <article class="product-card" data-product="Сумки и рюкзаки" data-category="bags" data-price="0">
           <div class="product-media"><img src="media/catalog-bags-v2.png" alt="Поясные сумки разных цветов" loading="lazy"><span>Аксессуары</span></div>
-          <div class="product-body"><h3>Сумки и рюкзаки</h3><p>Шопперы, поясные сумки, чехлы и изделия под вашу задачу.</p><button class="add-button" type="button">Добавить в партию <span>+</span></button></div>
+          <div class="product-body"><div class="product-title"><h3>Сумки и рюкзаки</h3><strong>по расчёту</strong></div><p>Шопперы, поясные сумки, чехлы и изделия под вашу задачу.</p><div class="product-tags"><span>свой крой</span><span>печать</span><span>тираж</span></div><button class="add-button" type="button">Обсудить сумки <span>+</span></button></div>
         </article>
-        <article class="product-card wide" data-product="Другое текстильное изделие">
+        <article class="product-card wide" data-product="Другое текстильное изделие" data-category="custom" data-price="0">
           <div class="product-media"><img src="media/max-2026-07-22/bebeccd2d79e05da.webp" alt="Текстильное изделие, изготовленное АЛИДИКОЙ" loading="lazy"><span>Нестандартное</span></div>
           <div class="product-body"><div><h3>Нужно другое?</h3><p>Опишите изделие обычными словами или покажите пример. Разберём задачу по материалу, конструкции и сроку.</p></div><button class="add-button" type="button">Добавить свою задачу <span>+</span></button></div>
         </article>
+      </div>
+      <p class="catalog-disclaimer">Стартовые цены показывают ориентир для подтверждённых условий. Итог зависит от ткани, тиража, размера нанесения и дополнительных деталей.</p>
+    </section>
+
+    <section class="section use-cases">
+      <div class="wrap">
+        <div class="section-head compact">
+          <div><p class="kicker">Не начинайте с техзадания</p><h2>Выберите задачу,<br>которую решаете</h2></div>
+          <p>Собрали частые оптовые сценарии. Нажмите на подходящий — мы заранее добавим понятную формулировку в заявку.</p>
+        </div>
+        <div class="case-grid">
+          <button class="case-card" type="button" data-case="Форма для кафе или ресторана"><b>HoReCa</b><strong>Форма для кафе</strong><span>Футболки, фартуки, худи и головные уборы в одном стиле.</span></button>
+          <button class="case-card" type="button" data-case="Одежда для сотрудников производства или склада"><b>Команда</b><strong>Для производства и склада</strong><span>Удобная одежда сотрудников с логотипом и понятным размерным рядом.</span></button>
+          <button class="case-card" type="button" data-case="Мерч для мероприятия или команды"><b>Событие</b><strong>Мерч мероприятия</strong><span>Одежда, сумки и комплект участника с общей айдентикой.</span></button>
+          <button class="case-card" type="button" data-case="Коллекция одежды для собственного бренда"><b>Бренд</b><strong>Своя коллекция</strong><span>От идеи, конструкции и ткани до партии, упаковки и отправки.</span></button>
+        </div>
       </div>
     </section>
 
@@ -149,6 +173,18 @@
       </div>
     </section>
 
+    <section class="section after-order">
+      <div class="wrap after-grid">
+        <div><p class="kicker">После нажатия кнопки</p><h2>Заявка — это начало разговора, а не обязательство</h2></div>
+        <ol class="after-list">
+          <li><b>01</b><span><strong>Получим состав партии</strong><small>Изделия, количество, город и ваши пожелания.</small></span></li>
+          <li><b>02</b><span><strong>Проверим задачу и макет</strong><small>Если чего-то не хватает, спросим нормальными словами.</small></span></li>
+          <li><b>03</b><span><strong>Подготовим расчёт</strong><small>Согласуем материал, нанесение и итоговую стоимость.</small></span></li>
+          <li><b>04</b><span><strong>Запустим только после согласования</strong><small>До вашего подтверждения ничего не производим и не списываем.</small></span></li>
+        </ol>
+      </div>
+    </section>
+
     <section class="section final-cta">
       <div class="wrap final-grid">
         <div><p class="kicker light">Можно начать прямо сейчас</p><h2>Первая партия<br>собирается здесь.</h2></div>
@@ -173,9 +209,11 @@
       <h2 id="config-title">Изделие</h2>
       <form id="config-form">
         <input type="hidden" id="product-name">
+        <p class="estimate-box" id="estimate-box" hidden><span>Ориентир для выбранного количества</span><strong id="estimate-value"></strong><small>Не окончательная стоимость. Подтвердим после проверки задачи.</small></p>
         <div class="field"><label for="quantity">Примерное количество</label><div class="quantity-row"><button type="button" data-qty="-10" aria-label="Уменьшить на 10">−</button><input id="quantity" type="number" inputmode="numeric" min="1" value="50" required><button type="button" data-qty="10" aria-label="Увеличить на 10">+</button></div></div>
         <fieldset><legend>Нужно нанесение?</legend><div class="choice-row"><label><input type="radio" name="branding" value="Без нанесения" checked><span>Без нанесения</span></label><label><input type="radio" name="branding" value="С нанесением"><span>С нанесением</span></label><label><input type="radio" name="branding" value="Нужно подобрать"><span>Нужно подобрать</span></label></div></fieldset>
         <div class="field"><label for="item-note">Что важно учесть? <span>необязательно</span></label><textarea id="item-note" rows="3" placeholder="Цвет, размеры, материал, ссылка на пример…"></textarea></div>
+        <div class="field"><label for="item-file">Логотип или пример <span>необязательно</span></label><label class="file-drop" for="item-file"><strong>Выбрать файл</strong><span id="file-label">PNG, JPG, PDF или SVG · до 10 МБ</span></label><input class="file-input" id="item-file" type="file" accept=".png,.jpg,.jpeg,.pdf,.svg,image/png,image/jpeg,application/pdf,image/svg+xml"><small class="helper">Название файла попадёт в заявку. Сам макет менеджер попросит прислать при связи.</small></div>
         <button class="btn btn-primary full" type="submit">Добавить в мою партию</button>
       </form>
     </section>

@@ -10,6 +10,10 @@
   const configTitle = document.querySelector('#config-title');
   const quantity = document.querySelector('#quantity');
   const itemNote = document.querySelector('#item-note');
+  const itemFile = document.querySelector('#item-file');
+  const fileLabel = document.querySelector('#file-label');
+  const estimateBox = document.querySelector('#estimate-box');
+  const estimateValue = document.querySelector('#estimate-value');
   const drawer = document.querySelector('#batch');
   const batchItems = document.querySelector('#batch-items');
   const emptyBatch = document.querySelector('#empty-batch');
@@ -38,7 +42,7 @@
     orderForm.hidden = batch.length === 0;
     batchItems.innerHTML = batch.map((item, index) => `
       <article class="batch-item">
-        <div><h3>${escapeHtml(item.product)}</h3><p>${item.quantity} шт. · ${escapeHtml(item.branding)}${item.note ? `<br>${escapeHtml(item.note)}` : ''}</p></div>
+        <div><h3>${escapeHtml(item.product)}</h3><p>${item.quantity} шт. · ${escapeHtml(item.branding)}${item.estimate ? `<br>Ориентир: ${escapeHtml(item.estimate)}` : ''}${item.note ? `<br>${escapeHtml(item.note)}` : ''}${item.fileName ? `<br>Макет: ${escapeHtml(item.fileName)} — запросить при связи` : ''}</p></div>
         <button class="remove-item" type="button" data-remove="${index}" aria-label="Удалить ${escapeHtml(item.product)}">Удалить</button>
       </article>`).join('');
   }
@@ -47,12 +51,38 @@
     return String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
   }
 
-  function openConfig(name) {
+  function formatMoney(value) {
+    return new Intl.NumberFormat('ru-RU').format(value) + ' ₽';
+  }
+
+  function updateEstimate() {
+    const price = Number(configForm.dataset.price || 0);
+    const count = Math.max(1, Number(quantity.value || 1));
+    estimateBox.hidden = false;
+    if (!price) {
+      estimateValue.textContent = 'Рассчитаем после уточнения';
+      return '';
+    }
+    if (count < 100) {
+      estimateValue.textContent = 'При тираже до 100 шт. — по расчёту';
+      return '';
+    }
+    const estimate = `от ${formatMoney(price * count)}`;
+    estimateValue.textContent = estimate;
+    return estimate;
+  }
+
+  function openConfig(name, price = 0) {
     productName.value = name;
     configTitle.textContent = name;
-    quantity.value = 50;
+    configForm.dataset.price = String(price);
+    quantity.value = price ? 100 : 50;
     itemNote.value = '';
+    itemFile.value = '';
+    fileLabel.textContent = 'PNG, JPG, PDF или SVG · до 10 МБ';
+    fileLabel.closest('.file-drop').classList.remove('has-file');
     configForm.querySelector('[value="Без нанесения"]').checked = true;
+    updateEstimate();
     configurator.hidden = false;
     document.body.classList.add('locked');
     setTimeout(() => quantity.focus(), 20);
@@ -83,22 +113,56 @@
   }
 
   document.querySelectorAll('.product-card').forEach(card => {
-    card.querySelector('.add-button').addEventListener('click', () => openConfig(card.dataset.product));
+    card.querySelector('.add-button').addEventListener('click', () => openConfig(card.dataset.product, Number(card.dataset.price || 0)));
   });
+  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(item => item.classList.toggle('active', item === button));
+    document.querySelectorAll('.product-card').forEach(card => {
+      card.hidden = filter !== 'all' && card.dataset.category !== filter;
+    });
+  }));
+  document.querySelectorAll('[data-case]').forEach(button => button.addEventListener('click', () => {
+    openConfig(button.dataset.case, 0);
+    itemNote.value = `Нужна помощь с подбором изделий для задачи: ${button.dataset.case}.`;
+  }));
   document.querySelectorAll('[data-close-modal]').forEach(btn => btn.addEventListener('click', closeConfig));
   document.querySelectorAll('[data-open-batch]').forEach(btn => btn.addEventListener('click', openBatch));
   document.querySelectorAll('[data-close-batch]').forEach(btn => btn.addEventListener('click', closeBatch));
   document.querySelectorAll('[data-qty]').forEach(btn => btn.addEventListener('click', () => {
     quantity.value = Math.max(1, Number(quantity.value || 1) + Number(btn.dataset.qty));
+    updateEstimate();
   }));
+  quantity.addEventListener('input', updateEstimate);
+  itemFile.addEventListener('change', () => {
+    const file = itemFile.files[0];
+    const drop = fileLabel.closest('.file-drop');
+    if (!file) {
+      fileLabel.textContent = 'PNG, JPG, PDF или SVG · до 10 МБ';
+      drop.classList.remove('has-file');
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      itemFile.value = '';
+      fileLabel.textContent = 'Файл больше 10 МБ — выберите другой';
+      drop.classList.remove('has-file');
+      showToast('Максимальный размер файла — 10 МБ');
+      return;
+    }
+    fileLabel.textContent = file.name.slice(0, 120);
+    drop.classList.add('has-file');
+  });
 
   configForm.addEventListener('submit', event => {
     event.preventDefault();
+    const file = itemFile.files[0];
     batch.push({
       product: productName.value,
       quantity: Math.max(1, Number(quantity.value)),
       branding: new FormData(configForm).get('branding'),
-      note: itemNote.value.trim()
+      note: itemNote.value.trim(),
+      fileName: file ? file.name.slice(0, 120) : '',
+      estimate: updateEstimate()
     });
     save();
     closeConfig();
@@ -122,7 +186,7 @@
     const city = document.querySelector('#order-city').value.trim();
     const deadline = document.querySelector('#order-deadline').value.trim() || 'пока не определён';
     const contact = document.querySelector('#order-contact').value.trim() || 'не указано';
-    const lines = batch.map((item, i) => `${i + 1}. ${item.product} — примерно ${item.quantity} шт.; ${item.branding.toLowerCase()}${item.note ? `; важно: ${item.note}` : ''}`);
+    const lines = batch.map((item, i) => `${i + 1}. ${item.product} — примерно ${item.quantity} шт.; ${item.branding.toLowerCase()}${item.estimate ? `; ориентир ${item.estimate}` : ''}${item.note ? `; важно: ${item.note}` : ''}${item.fileName ? `; есть макет «${item.fileName}», попросить прислать при связи` : ''}`);
     const message = `Здравствуйте! Хочу рассчитать оптовую партию АЛИДИКА.\n\n${lines.join('\n')}\n\nКуда отправлять: ${city}\nКогда нужна партия: ${deadline}\nКак обращаться: ${contact}\n\nПодскажите, пожалуйста, что ещё нужно уточнить для расчёта?`;
     return { city, deadline, contact, message };
   }
