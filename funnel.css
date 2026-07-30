@@ -5,3 +5,14 @@
 @media(max-width:540px){.wrap{width:calc(100% - 24px)}.nav{height:68px}.hero-copy{padding:30px 22px}.hero-copy,.hero-media{min-height:460px}.hero-copy{border-radius:10px 36px 10px 10px}.hero-media{border-radius:36px 10px 10px 10px}h1{font-size:40px}.grid,.showcase,.products,.faq,.steps{grid-template-columns:1fr}.step,.step:first-child{border-right:0;border-bottom:1px solid #3b4650;padding:24px 0;min-height:auto}.step h3{margin-top:34px}.choice article{padding:28px}.final-box{border-radius:10px 38px 10px 10px}footer{height:150px;flex-direction:column;justify-content:center;gap:15px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 a:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+
+/* ALIDIKA brand system, aligned with the VK avatar and cover. */
+:root{--ink:#111214;--cream:#f5efe5;--paper:#fffaf2;--acid:#ff4b23;--red:#ff4b23;--blue:#26272a;--muted:#696761;--line:rgba(17,18,20,.16)}
+.logo{position:relative}
+.logo:after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:4px;border-radius:999px;background:repeating-linear-gradient(45deg,var(--red) 0 18px,var(--ink) 18px 21px)}
+.logo i{display:none}
+.choice article:first-child{background:var(--ink)}
+.choice article:last-child,.final-box{background:var(--red);color:white}
+.final-box .btn{background:var(--paper);color:var(--ink)}
+.step b{color:var(--red)}
+a:focus-visible{outline-color:var(--red)}

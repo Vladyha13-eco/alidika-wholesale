@@ -5,3 +5,13 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 .choice-row.two{grid-template-columns:repeat(2,1fr)}.helper{display:block;margin-top:6px;color:var(--muted)}.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}.send-choice{margin-top:24px}.social-note{color:var(--muted);font-size:14px}.social-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.social-vk{background:#1674e8;color:white}.social-max{background:#191919;color:white}.send-status{display:none;margin-top:14px;padding:14px;border-radius:12px;font-weight:600}.send-status.success{display:block;background:#e1edda;color:#25461e}.send-status.error{display:block;background:#f4dfe3;color:#762f45}.btn[disabled]{cursor:wait;opacity:.65}
 @media(max-width:620px){.choice-row.two,.social-actions{grid-template-columns:1fr}}
+
+/* ALIDIKA brand system, aligned with the VK avatar and cover. */
+:root{--ink:#111214;--ink2:#222326;--wine:#ff4b23;--wine2:#e83c17;--sage:#f0e9de;--paper:#f5efe5;--line:#d8d0c4;--muted:#696761;--shadow:0 24px 70px rgba(17,18,20,.16)}
+.site-header{background:rgba(245,239,229,.94);border-bottom-color:rgba(17,18,20,.12)}
+.logo{position:relative}
+.logo:after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:4px;border-radius:999px;background:repeating-linear-gradient(45deg,var(--wine) 0 18px,var(--ink) 18px 21px)}
+.logo span{display:none}
+h1 em{color:var(--wine)}
+.choice-row input:checked+span{background:#fff0e9;color:#c83212}
+:focus-visible{outline-color:var(--wine)}
