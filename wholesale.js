@@ -1,6 +1,6 @@
 (() => {
   const KEY = 'alidika-wholesale-batch-v1';
-  const LEAD_ENDPOINT = 'https://excretion-corrosive-doormat.ngrok-free.dev/api/site/lead';
+  const LEAD_ENDPOINT = 'https://alidika-vk-proxy.eco-ra.chatgpt.site/api/site/lead';
   let batch = [];
   try { batch = JSON.parse(localStorage.getItem(KEY)) || []; } catch (_) {}
 
