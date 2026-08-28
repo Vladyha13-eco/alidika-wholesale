@@ -5,19 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#0b0b0b">
-  <title>Футболка Алины · ШЬЮХА от АЛИДИКИ</title>
+  <title>КИНОДРОП · ШЬЮХА от АЛИДИКИ</title>
   <script>
     (() => {
       const incoming = new URLSearchParams(location.search);
       const target = new URLSearchParams({
-        product: '01', garment: 'tshirt', size: '44', color: 'black',
         ref: 'alina', utm_source: 'alina', utm_medium: 'creator',
-        utm_campaign: 'gift_tshirt_01', utm_content: 'profile_link'
+        utm_campaign: 'kinodrop', utm_content: 'alina_channels'
       });
       ['utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach((key) => {
         if (incoming.get(key)) target.set(key, incoming.get(key).slice(0, 80));
       });
-      const destination = '/shyuha-cinema/?' + target.toString() + '#order';
+      const destination = '/shyuha-cinema/?' + target.toString();
       location.replace(destination);
       window.addEventListener('DOMContentLoaded', () => {
         const link = document.querySelector('a');
@@ -27,6 +26,6 @@
   </script>
 </head>
 <body style="margin:0;background:#0b0b0b;color:#fff;font:18px/1.5 Arial,sans-serif;display:grid;min-height:100vh;place-items:center;text-align:center;padding:24px;box-sizing:border-box">
-  <main><h1>Открываем футболку Алины…</h1><p><a style="color:#d9ff57" href="/shyuha-cinema/?product=01&amp;garment=tshirt&amp;size=44&amp;color=black&amp;ref=alina&amp;utm_source=alina&amp;utm_medium=creator&amp;utm_campaign=gift_tshirt_01&amp;utm_content=profile_link#order">Если переход не сработал — нажми сюда</a></p></main>
+  <main><h1>Открываем КИНОДРОП…</h1><p><a style="color:#d9ff57" href="/shyuha-cinema/?ref=alina&amp;utm_source=alina&amp;utm_medium=creator&amp;utm_campaign=kinodrop&amp;utm_content=alina_channels">Если переход не сработал — нажми сюда</a></p></main>
 </body>
 </html>
