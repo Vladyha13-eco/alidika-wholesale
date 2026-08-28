@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Clean-param: product&garment&size&color&source /
+Sitemap: https://alidika.ru/shyuha-cinema/sitemap.xml

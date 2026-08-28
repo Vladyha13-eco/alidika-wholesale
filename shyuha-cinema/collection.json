@@ -1,0 +1,1222 @@
+{
+  "brand": "ШЬЮХА от АЛИДИКИ",
+  "collection": "КИНОДРОП 01",
+  "concept": "Сначала красиво. Через секунду смешно.",
+  "visual_system": {
+    "print_format": "Кинематографичный горизонтальный кадр + одна строка крупной латиницей сверху",
+    "garment_colors": [
+      "чёрный",
+      "молочный",
+      "графит",
+      "бордовый",
+      "ночной синий",
+      "оливковый"
+    ],
+    "t_shirt": "прямой свободный оверсайз; хлопок с лайкрой 92/8; 200 г/м²",
+    "hoodie": "прямой свободный оверсайз; плотная трёхнитка 320 г/м²",
+    "production": "пошив в Ижевске",
+    "rights_note": "Точный кадр и лица требуют разрешения правообладателя. Для коммерческого запуска по умолчанию создаётся оригинальная пародийная сцена без копирования конкретного кадра и внешности актёров."
+  },
+  "products": [
+    {
+      "id": "01",
+      "slug": "twilight-dog",
+      "reference": "Сумерки",
+      "caption_ru": "Вот такая хуйня, собачка",
+      "caption_latin": "VOT TAKAYA HUJNYA SOBACHKA",
+      "scene": "Вампир и парень-оборотень напряжённо смотрят друг на друга у металлической купели в сыром хвойном лесу.",
+      "hook": "«Собачка» буквально адресована волку.",
+      "rights": "user_sample_rights_not_cleared",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/01_twilight-dog_dark.png",
+        "print_light": "prints/01_twilight-dog_light.png",
+        "tshirt_product": "renders/01_twilight-dog_tshirt_product.webp",
+        "tshirt_outfit": "renders/01_twilight-dog_tshirt_outfit.webp",
+        "hoodie_product": "renders/01_twilight-dog_hoodie_product.webp",
+        "hoodie_outfit": "renders/01_twilight-dog_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "02",
+      "slug": "sorting-done",
+      "reference": "Гарри Поттер",
+      "caption_ru": "Ну вот и распределили",
+      "caption_latin": "NU VOT I RASPREDELILI",
+      "scene": "Юный волшебник сидит под древней говорящей шляпой в огромном свечном зале.",
+      "hook": "Шляпа решает судьбу так же буднично, как распределение задач.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/02_sorting-done_dark.png",
+        "print_light": "prints/02_sorting-done_light.png",
+        "tshirt_product": "renders/02_sorting-done_tshirt_product.webp",
+        "tshirt_outfit": "renders/02_sorting-done_tshirt_outfit.webp",
+        "hoodie_product": "renders/02_sorting-done_hoodie_product.webp",
+        "hoodie_outfit": "renders/02_sorting-done_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "03",
+      "slug": "matrix-sleep",
+      "reference": "Матрица",
+      "caption_ru": "А можно просто поспать?",
+      "caption_latin": "A MOZHNO PROSTO POSPAT?",
+      "scene": "Таинственный наставник протягивает две таблетки растерянному офисному работнику.",
+      "hook": "Третий выбор ломает главный выбор фильма.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/03_matrix-sleep_dark.png",
+        "print_light": "prints/03_matrix-sleep_light.png",
+        "tshirt_product": "renders/03_matrix-sleep_tshirt_product.webp",
+        "tshirt_outfit": "renders/03_matrix-sleep_tshirt_outfit.webp",
+        "hoodie_product": "renders/03_matrix-sleep_hoodie_product.webp",
+        "hoodie_outfit": "renders/03_matrix-sleep_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "04",
+      "slug": "titanic-arrived",
+      "reference": "Титаник",
+      "caption_ru": "Ну вот и доплыли",
+      "caption_latin": "NU VOT I DOPLYLI",
+      "scene": "Пара стоит на носу роскошного лайнера, а в тумане уже виден айсберг.",
+      "hook": "Романтический триумф превращается в бытовое подведение итогов.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/04_titanic-arrived_dark.png",
+        "print_light": "prints/04_titanic-arrived_light.png",
+        "tshirt_product": "renders/04_titanic-arrived_tshirt_product.webp",
+        "tshirt_outfit": "renders/04_titanic-arrived_tshirt_outfit.webp",
+        "hoodie_product": "renders/04_titanic-arrived_hoodie_product.webp",
+        "hoodie_outfit": "renders/04_titanic-arrived_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "05",
+      "slug": "monday-pass",
+      "reference": "Властелин колец",
+      "caption_ru": "В понедельник не пройдёшь",
+      "caption_latin": "V PONEDELNIK NE PROYDYOSH",
+      "scene": "Седой волшебник перекрывает узкий каменный мост огненной тени.",
+      "hook": "Легендарный запрет становится защитой выходного.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/05_monday-pass_dark.png",
+        "print_light": "prints/05_monday-pass_light.png",
+        "tshirt_product": "renders/05_monday-pass_tshirt_product.webp",
+        "tshirt_outfit": "renders/05_monday-pass_tshirt_outfit.webp",
+        "hoodie_product": "renders/05_monday-pass_hoodie_product.webp",
+        "hoodie_outfit": "renders/05_monday-pass_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "06",
+      "slug": "swamp-donkey",
+      "reference": "Шрек",
+      "caption_ru": "Красиво живём, осёл",
+      "caption_latin": "KRASIVO ZHIVYOM, OSYOL",
+      "scene": "Большой зелёный хозяин болота показывает другу-ословоду дом среди кувшинок.",
+      "hook": "Обращение встроено в дружескую динамику героев.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/06_swamp-donkey_dark.png",
+        "print_light": "prints/06_swamp-donkey_light.png",
+        "tshirt_product": "renders/06_swamp-donkey_tshirt_product.webp",
+        "tshirt_outfit": "renders/06_swamp-donkey_tshirt_outfit.webp",
+        "hoodie_product": "renders/06_swamp-donkey_hoodie_product.webp",
+        "hoodie_outfit": "renders/06_swamp-donkey_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "07",
+      "slug": "pirate-plan",
+      "reference": "Пираты Карибского моря",
+      "caption_ru": "Карта есть. Плана нет.",
+      "caption_latin": "KARTA EST. PLANA NET.",
+      "scene": "Эксцентричный пират сверяется с компасом на палубе посреди шторма.",
+      "hook": "Навигация есть, организации нет.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/07_pirate-plan_dark.png",
+        "print_light": "prints/07_pirate-plan_light.png",
+        "tshirt_product": "renders/07_pirate-plan_tshirt_product.webp",
+        "tshirt_outfit": "renders/07_pirate-plan_tshirt_outfit.webp",
+        "hoodie_product": "renders/07_pirate-plan_hoodie_product.webp",
+        "hoodie_outfit": "renders/07_pirate-plan_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "08",
+      "slug": "home-bills",
+      "reference": "Один дома",
+      "caption_ru": "Коммуналка пришла",
+      "caption_latin": "KOMMUNALKA PRISHLA",
+      "scene": "Оставшийся один ребёнок в ужасе держится за щёки перед зеркалом.",
+      "hook": "Крик получает взрослую причину.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "first_batch_rendered",
+      "assets": {
+        "print_dark": "prints/08_home-bills_dark.png",
+        "print_light": "prints/08_home-bills_light.png",
+        "tshirt_product": "renders/08_home-bills_tshirt_product.webp",
+        "tshirt_outfit": "renders/08_home-bills_tshirt_outfit.webp",
+        "hoodie_product": "renders/08_home-bills_hoodie_product.webp",
+        "hoodie_outfit": "renders/08_home-bills_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "09",
+      "slug": "terminator-vacation",
+      "reference": "Терминатор 2",
+      "caption_ru": "Я в отпуск",
+      "caption_latin": "YA V OTPUSK",
+      "scene": "Металлический герой медленно скрывается в огненном промышленном резервуаре с поднятым большим пальцем.",
+      "hook": "Героическое прощание становится уходом с рабочего чата.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/09_terminator-vacation_dark.png",
+        "print_light": "prints/09_terminator-vacation_light.png",
+        "tshirt_product": "renders/09_terminator-vacation_tshirt_product.webp",
+        "tshirt_outfit": "renders/09_terminator-vacation_tshirt_outfit.webp",
+        "hoodie_product": "renders/09_terminator-vacation_hoodie_product.webp",
+        "hoodie_outfit": "renders/09_terminator-vacation_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "10",
+      "slug": "pulp-money",
+      "reference": "Криминальное чтиво",
+      "caption_ru": "А где мои деньги?",
+      "caption_latin": "A GDE MOI DENGI?",
+      "scene": "Двое суровых мужчин в костюмах синхронно осматривают пустую комнату.",
+      "hook": "Опасный розыск превращается в зарплатный вопрос.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/10_pulp-money_dark.png",
+        "print_light": "prints/10_pulp-money_light.png",
+        "tshirt_product": "renders/10_pulp-money_tshirt_product.webp",
+        "tshirt_outfit": "renders/10_pulp-money_tshirt_outfit.webp",
+        "hoodie_product": "renders/10_pulp-money_hoodie_product.webp",
+        "hoodie_outfit": "renders/10_pulp-money_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "11",
+      "slug": "godfather-offer",
+      "reference": "Крёстный отец",
+      "caption_ru": "Предложение так себе",
+      "caption_latin": "PREDLOZHENIE TAK SEBE",
+      "scene": "Мрачный патриарх сидит за столом и гладит кота, выслушивая просителя.",
+      "hook": "Непоколебимый авторитет оценивает слабый оффер.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/11_godfather-offer_dark.png",
+        "print_light": "prints/11_godfather-offer_light.png",
+        "tshirt_product": "renders/11_godfather-offer_tshirt_product.webp",
+        "tshirt_outfit": "renders/11_godfather-offer_tshirt_outfit.webp",
+        "hoodie_product": "renders/11_godfather-offer_hoodie_product.webp",
+        "hoodie_outfit": "renders/11_godfather-offer_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "12",
+      "slug": "leon-friends",
+      "reference": "Леон",
+      "caption_ru": "Все мои друзья здесь",
+      "caption_latin": "VSE MOI DRUZYA ZDES",
+      "scene": "Молчаливый наёмник держит горшок с растением рядом с серьёзной девочкой.",
+      "hook": "Растение действительно его самый постоянный друг.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/12_leon-friends_dark.png",
+        "print_light": "prints/12_leon-friends_light.png",
+        "tshirt_product": "renders/12_leon-friends_tshirt_product.webp",
+        "tshirt_outfit": "renders/12_leon-friends_tshirt_outfit.webp",
+        "hoodie_product": "renders/12_leon-friends_hoodie_product.webp",
+        "hoodie_outfit": "renders/12_leon-friends_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "13",
+      "slug": "joker-payday",
+      "reference": "Джокер",
+      "caption_ru": "Зарплата пришла",
+      "caption_latin": "ZARPLATA PRISHLA",
+      "scene": "Одинокий клоун торжественно танцует на длинной городской лестнице.",
+      "hook": "Трагический танец получает маленькую бытовую победу.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/13_joker-payday_dark.png",
+        "print_light": "prints/13_joker-payday_light.png",
+        "tshirt_product": "renders/13_joker-payday_tshirt_product.webp",
+        "tshirt_outfit": "renders/13_joker-payday_tshirt_outfit.webp",
+        "hoodie_product": "renders/13_joker-payday_hoodie_product.webp",
+        "hoodie_outfit": "renders/13_joker-payday_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "14",
+      "slug": "fight-silence",
+      "reference": "Бойцовский клуб",
+      "caption_ru": "Мы про это не говорили",
+      "caption_latin": "MY PRO ETO NE GOVORILI",
+      "scene": "Двое избитых мужчин стоят в подвальном клубе перед молчаливой толпой.",
+      "hook": "Фраза буквально нарушает главное правило.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/14_fight-silence_dark.png",
+        "print_light": "prints/14_fight-silence_light.png",
+        "tshirt_product": "renders/14_fight-silence_tshirt_product.webp",
+        "tshirt_outfit": "renders/14_fight-silence_tshirt_outfit.webp",
+        "hoodie_product": "renders/14_fight-silence_hoodie_product.webp",
+        "hoodie_outfit": "renders/14_fight-silence_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "15",
+      "slug": "psycho-font",
+      "reference": "Американский психопат",
+      "caption_ru": "А шрифт какой?",
+      "caption_latin": "A SHRIFT KAKOY?",
+      "scene": "Безупречно одетые банкиры напряжённо сравнивают почти одинаковые визитки.",
+      "hook": "Драма статуса сводится к типографике.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/15_psycho-font_dark.png",
+        "print_light": "prints/15_psycho-font_light.png",
+        "tshirt_product": "renders/15_psycho-font_tshirt_product.webp",
+        "tshirt_outfit": "renders/15_psycho-font_tshirt_outfit.webp",
+        "hoodie_product": "renders/15_psycho-font_hoodie_product.webp",
+        "hoodie_outfit": "renders/15_psycho-font_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "16",
+      "slug": "lebowski-rug",
+      "reference": "Большой Лебовски",
+      "caption_ru": "Ковёр всё сразу собрал",
+      "caption_latin": "KOVYOR VSE SRAZU SOBRAL",
+      "scene": "Расслабленный мужчина в халате смотрит на пустое место в гостиной.",
+      "hook": "Ковёр буквально собирал интерьер.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/16_lebowski-rug_dark.png",
+        "print_light": "prints/16_lebowski-rug_light.png",
+        "tshirt_product": "renders/16_lebowski-rug_tshirt_product.webp",
+        "tshirt_outfit": "renders/16_lebowski-rug_tshirt_outfit.webp",
+        "hoodie_product": "renders/16_lebowski-rug_hoodie_product.webp",
+        "hoodie_outfit": "renders/16_lebowski-rug_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "17",
+      "slug": "prada-all",
+      "reference": "Дьявол носит Prada",
+      "caption_ru": "Это всё?",
+      "caption_latin": "ETO VSE?",
+      "scene": "Холодная редакторка смотрит поверх очков на гору одежды и помощницу.",
+      "hook": "Её фирменное недовольство работает на любую задачу.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/17_prada-all_dark.png",
+        "print_light": "prints/17_prada-all_light.png",
+        "tshirt_product": "renders/17_prada-all_tshirt_product.webp",
+        "tshirt_outfit": "renders/17_prada-all_tshirt_outfit.webp",
+        "hoodie_product": "renders/17_prada-all_hoodie_product.webp",
+        "hoodie_outfit": "renders/17_prada-all_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "18",
+      "slug": "legally-read",
+      "reference": "Блондинка в законе",
+      "caption_ru": "Я всё прочитала",
+      "caption_latin": "YA VSE PROCHITALA",
+      "scene": "Ярко одетая студентка уверенно поднимает толстую папку в зале суда.",
+      "hook": "Недооценённая героиня действительно подготовилась.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/18_legally-read_dark.png",
+        "print_light": "prints/18_legally-read_light.png",
+        "tshirt_product": "renders/18_legally-read_tshirt_product.webp",
+        "tshirt_outfit": "renders/18_legally-read_tshirt_outfit.webp",
+        "hoodie_product": "renders/18_legally-read_hoodie_product.webp",
+        "hoodie_outfit": "renders/18_legally-read_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "19",
+      "slug": "pretty-expenses",
+      "reference": "Красотка",
+      "caption_ru": "Расходы обоснованы",
+      "caption_latin": "RASHODY OBOSNOVANY",
+      "scene": "Сияющая женщина возвращается с охапкой дорогих пакетов по роскошной улице.",
+      "hook": "Шопинг превращается в бухгалтерскую позицию.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/19_pretty-expenses_dark.png",
+        "print_light": "prints/19_pretty-expenses_light.png",
+        "tshirt_product": "renders/19_pretty-expenses_tshirt_product.webp",
+        "tshirt_outfit": "renders/19_pretty-expenses_tshirt_outfit.webp",
+        "hoodie_product": "renders/19_pretty-expenses_hoodie_product.webp",
+        "hoodie_outfit": "renders/19_pretty-expenses_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "20",
+      "slug": "mean-table",
+      "reference": "Дрянные девчонки",
+      "caption_ru": "Ты к нам не сядешь",
+      "caption_latin": "TY K NAM NE SYADESH",
+      "scene": "Три безупречно одетые школьницы охраняют место за столом в столовой.",
+      "hook": "Правило закрытого круга произносится без объяснений.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/20_mean-table_dark.png",
+        "print_light": "prints/20_mean-table_light.png",
+        "tshirt_product": "renders/20_mean-table_tshirt_product.webp",
+        "tshirt_outfit": "renders/20_mean-table_tshirt_outfit.webp",
+        "hoodie_product": "renders/20_mean-table_hoodie_product.webp",
+        "hoodie_outfit": "renders/20_mean-table_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "21",
+      "slug": "barbie-job",
+      "reference": "Барби",
+      "caption_ru": "А работа где?",
+      "caption_latin": "A RABOTA GDE?",
+      "scene": "Идеальная пара стоит на пластиковом пляже в слишком красивом мире.",
+      "hook": "Глянцевый мир внезапно сталкивается со взрослой жизнью.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/21_barbie-job_dark.png",
+        "print_light": "prints/21_barbie-job_light.png",
+        "tshirt_product": "renders/21_barbie-job_tshirt_product.webp",
+        "tshirt_outfit": "renders/21_barbie-job_tshirt_outfit.webp",
+        "hoodie_product": "renders/21_barbie-job_hoodie_product.webp",
+        "hoodie_outfit": "renders/21_barbie-job_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "22",
+      "slug": "wednesday-party",
+      "reference": "Уэнсдэй",
+      "caption_ru": "Корпоратив удался",
+      "caption_latin": "KORPORATIV UDALSYA",
+      "scene": "Невозмутимая готическая девушка странно танцует среди нарядной толпы.",
+      "hook": "Её лицо противоречит подписи и усиливает шутку.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/22_wednesday-party_dark.png",
+        "print_light": "prints/22_wednesday-party_light.png",
+        "tshirt_product": "renders/22_wednesday-party_tshirt_product.webp",
+        "tshirt_outfit": "renders/22_wednesday-party_tshirt_outfit.webp",
+        "hoodie_product": "renders/22_wednesday-party_hoodie_product.webp",
+        "hoodie_outfit": "renders/22_wednesday-party_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "23",
+      "slug": "addams-romance",
+      "reference": "Семейка Аддамс",
+      "caption_ru": "Не развод. Романтика.",
+      "caption_latin": "NE RAZVOD. ROMANTIKA.",
+      "scene": "Готическая супружеская пара страстно танцует танго в тёмном зале.",
+      "hook": "Мрачность оказывается идеальным браком.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/23_addams-romance_dark.png",
+        "print_light": "prints/23_addams-romance_light.png",
+        "tshirt_product": "renders/23_addams-romance_tshirt_product.webp",
+        "tshirt_outfit": "renders/23_addams-romance_tshirt_outfit.webp",
+        "hoodie_product": "renders/23_addams-romance_hoodie_product.webp",
+        "hoodie_outfit": "renders/23_addams-romance_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "24",
+      "slug": "dune-delivery",
+      "reference": "Дюна",
+      "caption_ru": "Доставка едет",
+      "caption_latin": "DOSTAVKA EDET",
+      "scene": "Гигантский песчаный червь приближается к одинокой фигуре в пустыне.",
+      "hook": "Самая страшная сила мира становится курьером.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/24_dune-delivery_dark.png",
+        "print_light": "prints/24_dune-delivery_light.png",
+        "tshirt_product": "renders/24_dune-delivery_tshirt_product.webp",
+        "tshirt_outfit": "renders/24_dune-delivery_tshirt_outfit.webp",
+        "hoodie_product": "renders/24_dune-delivery_hoodie_product.webp",
+        "hoodie_outfit": "renders/24_dune-delivery_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "25",
+      "slug": "blade-deadline",
+      "reference": "Бегущий по лезвию",
+      "caption_ru": "Дедлайн прошёл",
+      "caption_latin": "DEADLINE PROSHYOL",
+      "scene": "Уставший детектив стоит под неоновым дождём в ночном мегаполисе.",
+      "hook": "Экзистенциальная тоска получает офисную причину.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/25_blade-deadline_dark.png",
+        "print_light": "prints/25_blade-deadline_light.png",
+        "tshirt_product": "renders/25_blade-deadline_tshirt_product.webp",
+        "tshirt_outfit": "renders/25_blade-deadline_tshirt_outfit.webp",
+        "hoodie_product": "renders/25_blade-deadline_hoodie_product.webp",
+        "hoodie_outfit": "renders/25_blade-deadline_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "26",
+      "slug": "alien-lunch",
+      "reference": "Чужой",
+      "caption_ru": "Обед был с остринкой",
+      "caption_latin": "OBED BYL S OSTRINKOY",
+      "scene": "Экипаж космического корабля в ужасе отшатнулся от обеденного стола.",
+      "hook": "Самая страшная сцена становится отзывом о блюде.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/26_alien-lunch_dark.png",
+        "print_light": "prints/26_alien-lunch_light.png",
+        "tshirt_product": "renders/26_alien-lunch_tshirt_product.webp",
+        "tshirt_outfit": "renders/26_alien-lunch_tshirt_outfit.webp",
+        "hoodie_product": "renders/26_alien-lunch_hoodie_product.webp",
+        "hoodie_outfit": "renders/26_alien-lunch_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "27",
+      "slug": "jaws-swim",
+      "reference": "Челюсти",
+      "caption_ru": "Ну вот и поплавали",
+      "caption_latin": "NU VOT I POPLAVALI",
+      "scene": "Перепуганные моряки смотрят за борт маленькой лодки на огромный плавник.",
+      "hook": "Пляжный план завершён одним появлением.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/27_jaws-swim_dark.png",
+        "print_light": "prints/27_jaws-swim_light.png",
+        "tshirt_product": "renders/27_jaws-swim_tshirt_product.webp",
+        "tshirt_outfit": "renders/27_jaws-swim_tshirt_outfit.webp",
+        "hoodie_product": "renders/27_jaws-swim_hoodie_product.webp",
+        "hoodie_outfit": "renders/27_jaws-swim_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "28",
+      "slug": "rocky-stairs",
+      "reference": "Рокки",
+      "caption_ru": "Подъём был ошибкой",
+      "caption_latin": "PODYOM BYL OSHIBKOY",
+      "scene": "Измотанный спортсмен замер на вершине длинной городской лестницы.",
+      "hook": "Победная тренировка читается как честный отзыв.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/28_rocky-stairs_dark.png",
+        "print_light": "prints/28_rocky-stairs_light.png",
+        "tshirt_product": "renders/28_rocky-stairs_tshirt_product.webp",
+        "tshirt_outfit": "renders/28_rocky-stairs_tshirt_outfit.webp",
+        "hoodie_product": "renders/28_rocky-stairs_hoodie_product.webp",
+        "hoodie_outfit": "renders/28_rocky-stairs_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "29",
+      "slug": "ghost-cleaning",
+      "reference": "Охотники за привидениями",
+      "caption_ru": "Кто вызвал клининг?",
+      "caption_latin": "KTO VYZVAL KLILING?",
+      "scene": "Команда в защитных костюмах стоит посреди комнаты, залитой зелёной слизью.",
+      "hook": "Охота на духов выглядит как очень сложная уборка.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/29_ghost-cleaning_dark.png",
+        "print_light": "prints/29_ghost-cleaning_light.png",
+        "tshirt_product": "renders/29_ghost-cleaning_tshirt_product.webp",
+        "tshirt_outfit": "renders/29_ghost-cleaning_tshirt_outfit.webp",
+        "hoodie_product": "renders/29_ghost-cleaning_hoodie_product.webp",
+        "hoodie_outfit": "renders/29_ghost-cleaning_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "30",
+      "slug": "vader-vacation",
+      "reference": "Звёздные войны",
+      "caption_ru": "Я твой отпуск",
+      "caption_latin": "YA TVOY OTPUSK",
+      "scene": "Тёмный космический воин нависает над молодым героем на металлическом мосту.",
+      "hook": "Главное признание заменено самым желанным известием.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/30_vader-vacation_dark.png",
+        "print_light": "prints/30_vader-vacation_light.png",
+        "tshirt_product": "renders/30_vader-vacation_tshirt_product.webp",
+        "tshirt_outfit": "renders/30_vader-vacation_tshirt_outfit.webp",
+        "hoodie_product": "renders/30_vader-vacation_hoodie_product.webp",
+        "hoodie_outfit": "renders/30_vader-vacation_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "31",
+      "slug": "yoda-deadline",
+      "reference": "Звёздные войны",
+      "caption_ru": "Дедлайн близко",
+      "caption_latin": "DEADLINE BLIZKO",
+      "scene": "Маленький мудрец спокойно сидит среди туманных болот.",
+      "hook": "Переставленная речь ощущается даже в коротком предупреждении.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/31_yoda-deadline_dark.png",
+        "print_light": "prints/31_yoda-deadline_light.png",
+        "tshirt_product": "renders/31_yoda-deadline_tshirt_product.webp",
+        "tshirt_outfit": "renders/31_yoda-deadline_tshirt_outfit.webp",
+        "hoodie_product": "renders/31_yoda-deadline_hoodie_product.webp",
+        "hoodie_outfit": "renders/31_yoda-deadline_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "32",
+      "slug": "indy-project",
+      "reference": "Индиана Джонс",
+      "caption_ru": "Проект почти готов",
+      "caption_latin": "PROEKT POCHTI GOTOV",
+      "scene": "Археолог в шляпе убегает по тоннелю от гигантского каменного шара.",
+      "hook": "«Почти» визуально объясняет реальное состояние проекта.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/32_indy-project_dark.png",
+        "print_light": "prints/32_indy-project_light.png",
+        "tshirt_product": "renders/32_indy-project_tshirt_product.webp",
+        "tshirt_outfit": "renders/32_indy-project_tshirt_outfit.webp",
+        "hoodie_product": "renders/32_indy-project_hoodie_product.webp",
+        "hoodie_outfit": "renders/32_indy-project_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "33",
+      "slug": "future-monday",
+      "reference": "Назад в будущее",
+      "caption_ru": "К понедельнику успеем",
+      "caption_latin": "K PONEDELNIKU USPEEM",
+      "scene": "Учёный и подросток у светящейся машины времени смотрят на часы башни.",
+      "hook": "Дедлайн решается буквально путешествием во времени.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/33_future-monday_dark.png",
+        "print_light": "prints/33_future-monday_light.png",
+        "tshirt_product": "renders/33_future-monday_tshirt_product.webp",
+        "tshirt_outfit": "renders/33_future-monday_tshirt_outfit.webp",
+        "hoodie_product": "renders/33_future-monday_hoodie_product.webp",
+        "hoodie_outfit": "renders/33_future-monday_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "34",
+      "slug": "mib-order",
+      "reference": "Люди в чёрном",
+      "caption_ru": "Вы ничего не заказывали",
+      "caption_latin": "VY NICHEGO NE ZAKAZYVALI",
+      "scene": "Агент в чёрном направляет яркий стиратель памяти прямо в камеру.",
+      "hook": "После вспышки удобно забыть любой заказ.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/34_mib-order_dark.png",
+        "print_light": "prints/34_mib-order_light.png",
+        "tshirt_product": "renders/34_mib-order_tshirt_product.webp",
+        "tshirt_outfit": "renders/34_mib-order_tshirt_outfit.webp",
+        "hoodie_product": "renders/34_mib-order_hoodie_product.webp",
+        "hoodie_outfit": "renders/34_mib-order_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "35",
+      "slug": "mask-minute",
+      "reference": "Маска",
+      "caption_ru": "Я просто на минуточку",
+      "caption_latin": "YA PROSTO NA MINUTOCHKU",
+      "scene": "Яркий эксцентрик в невозможном костюме врывается в строгий вечерний зал.",
+      "hook": "Внешний вид полностью опровергает скромное обещание.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/35_mask-minute_dark.png",
+        "print_light": "prints/35_mask-minute_light.png",
+        "tshirt_product": "renders/35_mask-minute_tshirt_product.webp",
+        "tshirt_outfit": "renders/35_mask-minute_tshirt_outfit.webp",
+        "hoodie_product": "renders/35_mask-minute_hoodie_product.webp",
+        "hoodie_outfit": "renders/35_mask-minute_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "36",
+      "slug": "shining-call",
+      "reference": "Сияние",
+      "caption_ru": "Я на созвон",
+      "caption_latin": "YA NA SOZVON",
+      "scene": "Безумно улыбающийся мужчина выглядывает через пролом в двери.",
+      "hook": "Рабочий звонок становится настоящим вторжением.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/36_shining-call_dark.png",
+        "print_light": "prints/36_shining-call_light.png",
+        "tshirt_product": "renders/36_shining-call_tshirt_product.webp",
+        "tshirt_outfit": "renders/36_shining-call_tshirt_outfit.webp",
+        "hoodie_product": "renders/36_shining-call_hoodie_product.webp",
+        "hoodie_outfit": "renders/36_shining-call_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "37",
+      "slug": "scream-phone",
+      "reference": "Крик",
+      "caption_ru": "Кто опять звонит?",
+      "caption_latin": "KTO OPYAT ZVONIT?",
+      "scene": "Девушка с беспроводным телефоном оглядывается на тёмные окна кухни.",
+      "hook": "Бытовое раздражение знает зритель, но не героиня.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/37_scream-phone_dark.png",
+        "print_light": "prints/37_scream-phone_light.png",
+        "tshirt_product": "renders/37_scream-phone_tshirt_product.webp",
+        "tshirt_outfit": "renders/37_scream-phone_tshirt_outfit.webp",
+        "hoodie_product": "renders/37_scream-phone_hoodie_product.webp",
+        "hoodie_outfit": "renders/37_scream-phone_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "38",
+      "slug": "corpse-wedding",
+      "reference": "Труп невесты",
+      "caption_ru": "Свадьба по плану",
+      "caption_latin": "SVADBA PO PLANU",
+      "scene": "Жених и мёртвая невеста неловко стоят у готического алтаря.",
+      "hook": "Подпись спорит со всем, что происходит в кадре.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/38_corpse-wedding_dark.png",
+        "print_light": "prints/38_corpse-wedding_light.png",
+        "tshirt_product": "renders/38_corpse-wedding_tshirt_product.webp",
+        "tshirt_outfit": "renders/38_corpse-wedding_tshirt_outfit.webp",
+        "hoodie_product": "renders/38_corpse-wedding_hoodie_product.webp",
+        "hoodie_outfit": "renders/38_corpse-wedding_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "39",
+      "slug": "wonka-bonus",
+      "reference": "Шоколадная фабрика",
+      "caption_ru": "Ну вот и премия",
+      "caption_latin": "NU VOT I PREMIYA",
+      "scene": "Ребёнок ошеломлённо держит золотой билет у витрины сладостей.",
+      "hook": "Редкая награда превращается в долгожданный бонус.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/39_wonka-bonus_dark.png",
+        "print_light": "prints/39_wonka-bonus_light.png",
+        "tshirt_product": "renders/39_wonka-bonus_tshirt_product.webp",
+        "tshirt_outfit": "renders/39_wonka-bonus_tshirt_outfit.webp",
+        "hoodie_product": "renders/39_wonka-bonus_hoodie_product.webp",
+        "hoodie_outfit": "renders/39_wonka-bonus_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "40",
+      "slug": "dobby-free",
+      "reference": "Гарри Поттер",
+      "caption_ru": "Свободен. Но до понедельника.",
+      "caption_latin": "SVOBODEN. NO DO PONEDELNIKA.",
+      "scene": "Маленький домашний эльф счастливо прижимает к себе подаренный носок.",
+      "hook": "Освобождение оказывается обычными выходными.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/40_dobby-free_dark.png",
+        "print_light": "prints/40_dobby-free_light.png",
+        "tshirt_product": "renders/40_dobby-free_tshirt_product.webp",
+        "tshirt_outfit": "renders/40_dobby-free_tshirt_outfit.webp",
+        "hoodie_product": "renders/40_dobby-free_hoodie_product.webp",
+        "hoodie_outfit": "renders/40_dobby-free_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "41",
+      "slug": "gollum-package",
+      "reference": "Властелин колец",
+      "caption_ru": "Моя посылочка",
+      "caption_latin": "MOYA POSYLOCHKA",
+      "scene": "Худое пещерное существо бережно держит маленькое золотое кольцо.",
+      "hook": "Одержимость кольцом выглядит как ожидание заказа.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/41_gollum-package_dark.png",
+        "print_light": "prints/41_gollum-package_light.png",
+        "tshirt_product": "renders/41_gollum-package_tshirt_product.webp",
+        "tshirt_outfit": "renders/41_gollum-package_tshirt_outfit.webp",
+        "hoodie_product": "renders/41_gollum-package_hoodie_product.webp",
+        "hoodie_outfit": "renders/41_gollum-package_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "42",
+      "slug": "throne-chair",
+      "reference": "Игра престолов",
+      "caption_ru": "Стул неудобный",
+      "caption_latin": "STUL NEUDOBNYI",
+      "scene": "Правитель сидит на огромном троне из металлических клинков.",
+      "hook": "Весь символ власти сводится к эргономике.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/42_throne-chair_dark.png",
+        "print_light": "prints/42_throne-chair_light.png",
+        "tshirt_product": "renders/42_throne-chair_tshirt_product.webp",
+        "tshirt_outfit": "renders/42_throne-chair_tshirt_outfit.webp",
+        "hoodie_product": "renders/42_throne-chair_hoodie_product.webp",
+        "hoodie_outfit": "renders/42_throne-chair_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "43",
+      "slug": "peaky-calculation",
+      "reference": "Острые козырьки",
+      "caption_ru": "Всё по расчёту",
+      "caption_latin": "VSE PO RASCHYOTU",
+      "scene": "Мрачная семья в костюмах молча сидит за столом старого паба.",
+      "hook": "Угроза и бухгалтерия звучат одинаково уверенно.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/43_peaky-calculation_dark.png",
+        "print_light": "prints/43_peaky-calculation_light.png",
+        "tshirt_product": "renders/43_peaky-calculation_tshirt_product.webp",
+        "tshirt_outfit": "renders/43_peaky-calculation_tshirt_outfit.webp",
+        "hoodie_product": "renders/43_peaky-calculation_hoodie_product.webp",
+        "hoodie_outfit": "renders/43_peaky-calculation_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "44",
+      "slug": "stranger-wifi",
+      "reference": "Очень странные дела",
+      "caption_ru": "Wi-Fi есть?",
+      "caption_latin": "WI-FI EST?",
+      "scene": "Женщина смотрит на стену с алфавитом и мигающими гирляндами.",
+      "hook": "Сверхъестественная связь превращается в поиск сети.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/44_stranger-wifi_dark.png",
+        "print_light": "prints/44_stranger-wifi_light.png",
+        "tshirt_product": "renders/44_stranger-wifi_tshirt_product.webp",
+        "tshirt_outfit": "renders/44_stranger-wifi_tshirt_outfit.webp",
+        "hoodie_product": "renders/44_stranger-wifi_hoodie_product.webp",
+        "hoodie_outfit": "renders/44_stranger-wifi_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "45",
+      "slug": "squid-workday",
+      "reference": "Игра в кальмара",
+      "caption_ru": "Рабочий день окончен",
+      "caption_latin": "RABOCHIY DEN OKONCHEN",
+      "scene": "Огромная кукла поворачивает голову к замершей толпе в спортивных костюмах.",
+      "hook": "Фраза звучит как освобождение и как угроза.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/45_squid-workday_dark.png",
+        "print_light": "prints/45_squid-workday_light.png",
+        "tshirt_product": "renders/45_squid-workday_tshirt_product.webp",
+        "tshirt_outfit": "renders/45_squid-workday_tshirt_outfit.webp",
+        "hoodie_product": "renders/45_squid-workday_hoodie_product.webp",
+        "hoodie_outfit": "renders/45_squid-workday_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "46",
+      "slug": "office-zone",
+      "reference": "Офис",
+      "caption_ru": "Это моя зона ответственности?",
+      "caption_latin": "ETO MOYA ZONA OTVETSTVENNOSTI?",
+      "scene": "Самоуверенный начальник указывает на хаос в переговорной.",
+      "hook": "Выражение лица заранее отказывается от ответа.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/46_office-zone_dark.png",
+        "print_light": "prints/46_office-zone_light.png",
+        "tshirt_product": "renders/46_office-zone_tshirt_product.webp",
+        "tshirt_outfit": "renders/46_office-zone_tshirt_outfit.webp",
+        "hoodie_product": "renders/46_office-zone_hoodie_product.webp",
+        "hoodie_outfit": "renders/46_office-zone_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "47",
+      "slug": "friends-sofa",
+      "reference": "Друзья",
+      "caption_ru": "Диван не пройдёт",
+      "caption_latin": "DIVAN NE PROYDYOT",
+      "scene": "Компания застряла с большим диваном на узкой лестнице.",
+      "hook": "Сюжет шутки буквально виден в кадре.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/47_friends-sofa_dark.png",
+        "print_light": "prints/47_friends-sofa_light.png",
+        "tshirt_product": "renders/47_friends-sofa_tshirt_product.webp",
+        "tshirt_outfit": "renders/47_friends-sofa_tshirt_outfit.webp",
+        "hoodie_product": "renders/47_friends-sofa_hoodie_product.webp",
+        "hoodie_outfit": "renders/47_friends-sofa_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "48",
+      "slug": "sherlock-today",
+      "reference": "Шерлок",
+      "caption_ru": "Элементарно. Но не сегодня.",
+      "caption_latin": "ELEMENTARNO. NO NE SEGODNYA.",
+      "scene": "Высокий детектив в пальто задумался на крыше над серым городом.",
+      "hook": "Гений честно признаёт предел текущего дня.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/48_sherlock-today_dark.png",
+        "print_light": "prints/48_sherlock-today_light.png",
+        "tshirt_product": "renders/48_sherlock-today_tshirt_product.webp",
+        "tshirt_outfit": "renders/48_sherlock-today_tshirt_outfit.webp",
+        "hoodie_product": "renders/48_sherlock-today_hoodie_product.webp",
+        "hoodie_outfit": "renders/48_sherlock-today_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "49",
+      "slug": "last-normal",
+      "reference": "Одни из нас",
+      "caption_ru": "Ну хоть один нормальный день",
+      "caption_latin": "NU HOT ODIN NORMALNYI DEN",
+      "scene": "Двое уставших путников впервые спокойно смотрят на жирафа среди заросшего города.",
+      "hook": "Редкая тишина в постапокалипсисе заслуживает подписи.",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/49_last-normal_dark.png",
+        "print_light": "prints/49_last-normal_light.png",
+        "tshirt_product": "renders/49_last-normal_tshirt_product.webp",
+        "tshirt_outfit": "renders/49_last-normal_tshirt_outfit.webp",
+        "hoodie_product": "renders/49_last-normal_hoodie_product.webp",
+        "hoodie_outfit": "renders/49_last-normal_hoodie_outfit.webp"
+      }
+    },
+    {
+      "id": "50",
+      "slug": "budapest-control",
+      "reference": "Отель «Гранд Будапешт»",
+      "caption_ru": "Всё под контролем. Почти.",
+      "caption_latin": "VSE POD KONTROLEM. POCHTI.",
+      "scene": "Безупречный консьерж стоит в роскошном розовом лобби во время очевидного хаоса.",
+      "hook": "Идеальный сервис держится на слове «почти».",
+      "rights": "original_parody",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "status": "rendered",
+      "assets": {
+        "print_dark": "prints/50_budapest-control_dark.png",
+        "print_light": "prints/50_budapest-control_light.png",
+        "tshirt_product": "renders/50_budapest-control_tshirt_product.webp",
+        "tshirt_outfit": "renders/50_budapest-control_tshirt_outfit.webp",
+        "hoodie_product": "renders/50_budapest-control_hoodie_product.webp",
+        "hoodie_outfit": "renders/50_budapest-control_hoodie_outfit.webp"
+      }
+    }
+  ]
+}

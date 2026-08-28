@@ -1,0 +1,1635 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-27",
+  "publisher": "ШЬЮХА от АЛИДИКИ",
+  "canonical_url": "https://alidika.ru/shyuha-cinema/",
+  "language": "ru-RU",
+  "order_channel": "https://max.ru/id183475103906_biz",
+  "fulfillment": {
+    "pickup": "Ижевск, Воткинское шоссе, 170",
+    "shipping": [
+      "СДЭК",
+      "Почта России"
+    ],
+    "shipping_paid_by": "buyer"
+  },
+  "materials": {
+    "tshirt": "хлопок с лайкрой 92/8, 200 г/м², прямой свободный оверсайз",
+    "hoodie": "плотная трёхнитка 320 г/м², прямой свободный оверсайз"
+  },
+  "products": [
+    {
+      "id": "01",
+      "name": "Вот такая хуйня, собачка",
+      "display_name": "VOT TAKAYA HUJNYA SOBACHKA",
+      "reference": "Сумерки",
+      "hook": "«Собачка» буквально адресована волку.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/prints/01-sobachka/",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=01&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/01_twilight-dog_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/01_twilight-dog_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/01_twilight-dog_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/01_twilight-dog_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "02",
+      "name": "Ну вот и распределили",
+      "display_name": "NU VOT I RASPREDELILI",
+      "reference": "Гарри Поттер",
+      "hook": "Шляпа решает судьбу так же буднично, как распределение задач.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=02#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=02&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/02_sorting-done_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/02_sorting-done_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/02_sorting-done_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/02_sorting-done_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "03",
+      "name": "А можно просто поспать?",
+      "display_name": "A MOZHNO PROSTO POSPAT?",
+      "reference": "Матрица",
+      "hook": "Третий выбор ломает главный выбор фильма.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=03#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=03&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/03_matrix-sleep_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/03_matrix-sleep_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/03_matrix-sleep_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/03_matrix-sleep_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "04",
+      "name": "Ну вот и доплыли",
+      "display_name": "NU VOT I DOPLYLI",
+      "reference": "Титаник",
+      "hook": "Романтический триумф превращается в бытовое подведение итогов.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=04#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=04&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/04_titanic-arrived_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/04_titanic-arrived_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/04_titanic-arrived_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/04_titanic-arrived_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "05",
+      "name": "В понедельник не пройдёшь",
+      "display_name": "V PONEDELNIK NE PROYDYOSH",
+      "reference": "Властелин колец",
+      "hook": "Легендарный запрет становится защитой выходного.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=05#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=05&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/05_monday-pass_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/05_monday-pass_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/05_monday-pass_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/05_monday-pass_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "06",
+      "name": "Красиво живём, осёл",
+      "display_name": "KRASIVO ZHIVYOM, OSYOL",
+      "reference": "Шрек",
+      "hook": "Обращение встроено в дружескую динамику героев.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=06#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=06&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/06_swamp-donkey_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/06_swamp-donkey_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/06_swamp-donkey_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/06_swamp-donkey_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "07",
+      "name": "Карта есть. Плана нет.",
+      "display_name": "KARTA EST. PLANA NET.",
+      "reference": "Пираты Карибского моря",
+      "hook": "Навигация есть, организации нет.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=07#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=07&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/07_pirate-plan_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/07_pirate-plan_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/07_pirate-plan_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/07_pirate-plan_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "08",
+      "name": "Коммуналка пришла",
+      "display_name": "KOMMUNALKA PRISHLA",
+      "reference": "Один дома",
+      "hook": "Крик получает взрослую причину.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=08#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=08&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/08_home-bills_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/08_home-bills_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/08_home-bills_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/08_home-bills_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "09",
+      "name": "Я в отпуск",
+      "display_name": "YA V OTPUSK",
+      "reference": "Терминатор 2",
+      "hook": "Героическое прощание становится уходом с рабочего чата.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=09#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=09&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/09_terminator-vacation_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/09_terminator-vacation_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/09_terminator-vacation_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/09_terminator-vacation_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "10",
+      "name": "А где мои деньги?",
+      "display_name": "A GDE MOI DENGI?",
+      "reference": "Криминальное чтиво",
+      "hook": "Опасный розыск превращается в зарплатный вопрос.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=10#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=10&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/10_pulp-money_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/10_pulp-money_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/10_pulp-money_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/10_pulp-money_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "11",
+      "name": "Предложение так себе",
+      "display_name": "PREDLOZHENIE TAK SEBE",
+      "reference": "Крёстный отец",
+      "hook": "Непоколебимый авторитет оценивает слабый оффер.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=11#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=11&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/11_godfather-offer_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/11_godfather-offer_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/11_godfather-offer_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/11_godfather-offer_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "12",
+      "name": "Все мои друзья здесь",
+      "display_name": "VSE MOI DRUZYA ZDES",
+      "reference": "Леон",
+      "hook": "Растение действительно его самый постоянный друг.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=12#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=12&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/12_leon-friends_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/12_leon-friends_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/12_leon-friends_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/12_leon-friends_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "13",
+      "name": "Зарплата пришла",
+      "display_name": "ZARPLATA PRISHLA",
+      "reference": "Джокер",
+      "hook": "Трагический танец получает маленькую бытовую победу.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=13#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=13&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/13_joker-payday_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/13_joker-payday_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/13_joker-payday_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/13_joker-payday_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "14",
+      "name": "Мы про это не говорили",
+      "display_name": "MY PRO ETO NE GOVORILI",
+      "reference": "Бойцовский клуб",
+      "hook": "Фраза буквально нарушает главное правило.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=14#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=14&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/14_fight-silence_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/14_fight-silence_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/14_fight-silence_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/14_fight-silence_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "15",
+      "name": "А шрифт какой?",
+      "display_name": "A SHRIFT KAKOY?",
+      "reference": "Американский психопат",
+      "hook": "Драма статуса сводится к типографике.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=15#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=15&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/15_psycho-font_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/15_psycho-font_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/15_psycho-font_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/15_psycho-font_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "16",
+      "name": "Ковёр всё сразу собрал",
+      "display_name": "KOVYOR VSE SRAZU SOBRAL",
+      "reference": "Большой Лебовски",
+      "hook": "Ковёр буквально собирал интерьер.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=16#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=16&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/16_lebowski-rug_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/16_lebowski-rug_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/16_lebowski-rug_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/16_lebowski-rug_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "17",
+      "name": "Это всё?",
+      "display_name": "ETO VSE?",
+      "reference": "Дьявол носит Prada",
+      "hook": "Её фирменное недовольство работает на любую задачу.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=17#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=17&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/17_prada-all_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/17_prada-all_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/17_prada-all_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/17_prada-all_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "18",
+      "name": "Я всё прочитала",
+      "display_name": "YA VSE PROCHITALA",
+      "reference": "Блондинка в законе",
+      "hook": "Недооценённая героиня действительно подготовилась.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=18#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=18&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/18_legally-read_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/18_legally-read_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/18_legally-read_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/18_legally-read_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "19",
+      "name": "Расходы обоснованы",
+      "display_name": "RASHODY OBOSNOVANY",
+      "reference": "Красотка",
+      "hook": "Шопинг превращается в бухгалтерскую позицию.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=19#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=19&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/19_pretty-expenses_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/19_pretty-expenses_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/19_pretty-expenses_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/19_pretty-expenses_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "20",
+      "name": "Ты к нам не сядешь",
+      "display_name": "TY K NAM NE SYADESH",
+      "reference": "Дрянные девчонки",
+      "hook": "Правило закрытого круга произносится без объяснений.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=20#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=20&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/20_mean-table_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/20_mean-table_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/20_mean-table_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/20_mean-table_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "21",
+      "name": "А работа где?",
+      "display_name": "A RABOTA GDE?",
+      "reference": "Барби",
+      "hook": "Глянцевый мир внезапно сталкивается со взрослой жизнью.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=21#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=21&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/21_barbie-job_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/21_barbie-job_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/21_barbie-job_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/21_barbie-job_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "22",
+      "name": "Корпоратив удался",
+      "display_name": "KORPORATIV UDALSYA",
+      "reference": "Уэнсдэй",
+      "hook": "Её лицо противоречит подписи и усиливает шутку.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=22#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=22&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/22_wednesday-party_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/22_wednesday-party_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/22_wednesday-party_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/22_wednesday-party_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "23",
+      "name": "Не развод. Романтика.",
+      "display_name": "NE RAZVOD. ROMANTIKA.",
+      "reference": "Семейка Аддамс",
+      "hook": "Мрачность оказывается идеальным браком.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=23#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=23&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/23_addams-romance_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/23_addams-romance_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/23_addams-romance_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/23_addams-romance_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "24",
+      "name": "Доставка едет",
+      "display_name": "DOSTAVKA EDET",
+      "reference": "Дюна",
+      "hook": "Самая страшная сила мира становится курьером.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=24#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=24&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/24_dune-delivery_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/24_dune-delivery_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/24_dune-delivery_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/24_dune-delivery_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "25",
+      "name": "Дедлайн прошёл",
+      "display_name": "DEADLINE PROSHYOL",
+      "reference": "Бегущий по лезвию",
+      "hook": "Экзистенциальная тоска получает офисную причину.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=25#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=25&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/25_blade-deadline_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/25_blade-deadline_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/25_blade-deadline_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/25_blade-deadline_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "26",
+      "name": "Обед был с остринкой",
+      "display_name": "OBED BYL S OSTRINKOY",
+      "reference": "Чужой",
+      "hook": "Самая страшная сцена становится отзывом о блюде.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=26#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=26&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/26_alien-lunch_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/26_alien-lunch_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/26_alien-lunch_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/26_alien-lunch_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "27",
+      "name": "Ну вот и поплавали",
+      "display_name": "NU VOT I POPLAVALI",
+      "reference": "Челюсти",
+      "hook": "Пляжный план завершён одним появлением.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=27#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=27&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/27_jaws-swim_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/27_jaws-swim_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/27_jaws-swim_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/27_jaws-swim_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "28",
+      "name": "Подъём был ошибкой",
+      "display_name": "PODYOM BYL OSHIBKOY",
+      "reference": "Рокки",
+      "hook": "Победная тренировка читается как честный отзыв.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=28#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=28&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/28_rocky-stairs_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/28_rocky-stairs_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/28_rocky-stairs_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/28_rocky-stairs_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "29",
+      "name": "Кто вызвал клининг?",
+      "display_name": "KTO VYZVAL KLILING?",
+      "reference": "Охотники за привидениями",
+      "hook": "Охота на духов выглядит как очень сложная уборка.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=29#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=29&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/29_ghost-cleaning_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/29_ghost-cleaning_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/29_ghost-cleaning_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/29_ghost-cleaning_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "30",
+      "name": "Я твой отпуск",
+      "display_name": "YA TVOY OTPUSK",
+      "reference": "Звёздные войны",
+      "hook": "Главное признание заменено самым желанным известием.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=30#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=30&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/30_vader-vacation_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/30_vader-vacation_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/30_vader-vacation_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/30_vader-vacation_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "31",
+      "name": "Дедлайн близко",
+      "display_name": "DEADLINE BLIZKO",
+      "reference": "Звёздные войны",
+      "hook": "Переставленная речь ощущается даже в коротком предупреждении.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=31#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=31&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/31_yoda-deadline_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/31_yoda-deadline_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/31_yoda-deadline_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/31_yoda-deadline_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "32",
+      "name": "Проект почти готов",
+      "display_name": "PROEKT POCHTI GOTOV",
+      "reference": "Индиана Джонс",
+      "hook": "«Почти» визуально объясняет реальное состояние проекта.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=32#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=32&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/32_indy-project_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/32_indy-project_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/32_indy-project_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/32_indy-project_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "33",
+      "name": "К понедельнику успеем",
+      "display_name": "K PONEDELNIKU USPEEM",
+      "reference": "Назад в будущее",
+      "hook": "Дедлайн решается буквально путешествием во времени.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=33#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=33&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/33_future-monday_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/33_future-monday_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/33_future-monday_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/33_future-monday_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "34",
+      "name": "Вы ничего не заказывали",
+      "display_name": "VY NICHEGO NE ZAKAZYVALI",
+      "reference": "Люди в чёрном",
+      "hook": "После вспышки удобно забыть любой заказ.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=34#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=34&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/34_mib-order_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/34_mib-order_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/34_mib-order_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/34_mib-order_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "35",
+      "name": "Я просто на минуточку",
+      "display_name": "YA PROSTO NA MINUTOCHKU",
+      "reference": "Маска",
+      "hook": "Внешний вид полностью опровергает скромное обещание.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=35#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=35&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/35_mask-minute_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/35_mask-minute_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/35_mask-minute_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/35_mask-minute_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "36",
+      "name": "Я на созвон",
+      "display_name": "YA NA SOZVON",
+      "reference": "Сияние",
+      "hook": "Рабочий звонок становится настоящим вторжением.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=36#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=36&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/36_shining-call_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/36_shining-call_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/36_shining-call_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/36_shining-call_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "37",
+      "name": "Кто опять звонит?",
+      "display_name": "KTO OPYAT ZVONIT?",
+      "reference": "Крик",
+      "hook": "Бытовое раздражение знает зритель, но не героиня.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=37#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=37&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/37_scream-phone_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/37_scream-phone_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/37_scream-phone_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/37_scream-phone_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "38",
+      "name": "Свадьба по плану",
+      "display_name": "SVADBA PO PLANU",
+      "reference": "Труп невесты",
+      "hook": "Подпись спорит со всем, что происходит в кадре.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=38#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=38&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/38_corpse-wedding_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/38_corpse-wedding_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/38_corpse-wedding_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/38_corpse-wedding_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "39",
+      "name": "Ну вот и премия",
+      "display_name": "NU VOT I PREMIYA",
+      "reference": "Шоколадная фабрика",
+      "hook": "Редкая награда превращается в долгожданный бонус.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=39#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=39&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/39_wonka-bonus_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/39_wonka-bonus_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/39_wonka-bonus_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/39_wonka-bonus_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "40",
+      "name": "Свободен. Но до понедельника.",
+      "display_name": "SVOBODEN. NO DO PONEDELNIKA.",
+      "reference": "Гарри Поттер",
+      "hook": "Освобождение оказывается обычными выходными.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=40#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=40&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/40_dobby-free_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/40_dobby-free_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/40_dobby-free_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/40_dobby-free_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "41",
+      "name": "Моя посылочка",
+      "display_name": "MOYA POSYLOCHKA",
+      "reference": "Властелин колец",
+      "hook": "Одержимость кольцом выглядит как ожидание заказа.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=41#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=41&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/41_gollum-package_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/41_gollum-package_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/41_gollum-package_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/41_gollum-package_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "42",
+      "name": "Стул неудобный",
+      "display_name": "STUL NEUDOBNYI",
+      "reference": "Игра престолов",
+      "hook": "Весь символ власти сводится к эргономике.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=42#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=42&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/42_throne-chair_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/42_throne-chair_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/42_throne-chair_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/42_throne-chair_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "43",
+      "name": "Всё по расчёту",
+      "display_name": "VSE PO RASCHYOTU",
+      "reference": "Острые козырьки",
+      "hook": "Угроза и бухгалтерия звучат одинаково уверенно.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=43#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=43&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/43_peaky-calculation_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/43_peaky-calculation_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/43_peaky-calculation_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/43_peaky-calculation_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "44",
+      "name": "Wi-Fi есть?",
+      "display_name": "WI-FI EST?",
+      "reference": "Очень странные дела",
+      "hook": "Сверхъестественная связь превращается в поиск сети.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=44#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=44&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/44_stranger-wifi_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/44_stranger-wifi_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/44_stranger-wifi_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/44_stranger-wifi_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "45",
+      "name": "Рабочий день окончен",
+      "display_name": "RABOCHIY DEN OKONCHEN",
+      "reference": "Игра в кальмара",
+      "hook": "Фраза звучит как освобождение и как угроза.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=45#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=45&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/45_squid-workday_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/45_squid-workday_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/45_squid-workday_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/45_squid-workday_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "46",
+      "name": "Это моя зона ответственности?",
+      "display_name": "ETO MOYA ZONA OTVETSTVENNOSTI?",
+      "reference": "Офис",
+      "hook": "Выражение лица заранее отказывается от ответа.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=46#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=46&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/46_office-zone_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/46_office-zone_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/46_office-zone_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/46_office-zone_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "47",
+      "name": "Диван не пройдёт",
+      "display_name": "DIVAN NE PROYDYOT",
+      "reference": "Друзья",
+      "hook": "Сюжет шутки буквально виден в кадре.",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=47#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=47&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/47_friends-sofa_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/47_friends-sofa_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/47_friends-sofa_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/47_friends-sofa_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "48",
+      "name": "Элементарно. Но не сегодня.",
+      "display_name": "ELEMENTARNO. NO NE SEGODNYA.",
+      "reference": "Шерлок",
+      "hook": "Гений честно признаёт предел текущего дня.",
+      "preferred_colors": [
+        "чёрный",
+        "оливковый",
+        "молочный"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=48#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=48&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/48_sherlock-today_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/48_sherlock-today_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/48_sherlock-today_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/48_sherlock-today_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "49",
+      "name": "Ну хоть один нормальный день",
+      "display_name": "NU HOT ODIN NORMALNYI DEN",
+      "reference": "Одни из нас",
+      "hook": "Редкая тишина в постапокалипсисе заслуживает подписи.",
+      "preferred_colors": [
+        "чёрный",
+        "молочный",
+        "бордовый"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=49#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=49&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/49_last-normal_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/49_last-normal_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/49_last-normal_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/49_last-normal_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    },
+    {
+      "id": "50",
+      "name": "Всё под контролем. Почти.",
+      "display_name": "VSE POD KONTROLEM. POCHTI.",
+      "reference": "Отель «Гранд Будапешт»",
+      "hook": "Идеальный сервис держится на слове «почти».",
+      "preferred_colors": [
+        "графит",
+        "молочный",
+        "ночной синий"
+      ],
+      "landing_url": "https://alidika.ru/shyuha-cinema/?product=50#order",
+      "order_url": "https://alidika.ru/shyuha-cinema/?product=50&source=catalog-feed#order",
+      "images": {
+        "tshirt": "https://alidika.ru/shyuha-cinema/assets/50_budapest-control_tshirt_product.webp",
+        "tshirt_outfit": "https://alidika.ru/shyuha-cinema/assets/50_budapest-control_tshirt_outfit.webp",
+        "hoodie": "https://alidika.ru/shyuha-cinema/assets/50_budapest-control_hoodie_product.webp",
+        "hoodie_outfit": "https://alidika.ru/shyuha-cinema/assets/50_budapest-control_hoodie_outfit.webp"
+      },
+      "offers": {
+        "tshirt": {
+          "price": 1500,
+          "currency": "RUB",
+          "confirmation_required": true
+        },
+        "hoodie": {
+          "price": 3000,
+          "currency": "RUB",
+          "confirmation_required": true
+        }
+      }
+    }
+  ],
+  "attribution": {
+    "supported_parameters": [
+      "ref",
+      "source",
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_content",
+      "utm_term"
+    ],
+    "order_message_includes_source": true,
+    "visit_analytics": false
+  }
+}
