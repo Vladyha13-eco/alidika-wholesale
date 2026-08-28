@@ -1,25 +1,10 @@
 # ШЬЮХА от АЛИДИКИ
 
-Official public catalog of T-shirts and hoodies with cinematic meme prints, sewn in Izhevsk, Russia.
-
-## Canonical pages
-- Home and collection: https://alidika.ru/shyuha-cinema/
-- Product 01: https://alidika.ru/shyuha-cinema/prints/01-sobachka/
-- Materials and sizing: https://alidika.ru/shyuha-cinema/materialy/
-- Ordering and delivery: https://alidika.ru/shyuha-cinema/kak-zakazat/
-- FAQ: https://alidika.ru/shyuha-cinema/faq/
-
-## Verified commercial facts
-- T-shirt price: 1500 RUB
-- Hoodie price: 3000 RUB
-- T-shirt: cotton with lycra 92/8, 200 g/m2, straight relaxed oversized cut
-- Hoodie: dense three-thread knit, 320 g/m2, straight relaxed oversized cut
-- Pickup: Izhevsk, Votkinskoye shosse 170
-- Shipping across Russia: CDEK or Russian Post, paid by the buyer
-- Orders are confirmed through the official ALIDIKA MAX profile before payment
-
-## Machine-readable data
-- Product feed: https://alidika.ru/shyuha-cinema/catalog-feed.json
-- Sitemap: https://alidika.ru/shyuha-cinema/sitemap.xml
-
-The site does not claim affiliation with film studios. Availability, selected color and delivery are confirmed before payment.
+Тестовая коллекция идей, не товары в наличии.
+Основной раздел: https://alidika.ru/shyuha-cinema/
+Каталог идей: https://alidika.ru/shyuha-cinema/catalog-feed.json
+Карта: https://alidika.ru/shyuha-cinema/sitemap.xml
+Контакт: https://vk.me/alidika1
+Футболка: 1500 RUB. Худи: 3000 RUB.
+Характеристики, доступность, получение и оплата подтверждаются перед заказом.
+Права на принт №01 не урегулированы; безусловное изготовление не предлагается.

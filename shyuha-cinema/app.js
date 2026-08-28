@@ -57,7 +57,7 @@ function renderReady(products) {
     <article class="product" data-id="${product.id}" data-garment="tshirt" data-view="product">
       <div class="product-media">
         <img src="${assetFor(product, 'tshirt', 'product')}" alt="${escapeHtml(product.caption_ru)} — футболка, предметный вид">
-        <span class="product-status">Кадр готов</span>
+        <span class="product-status">Визуализация</span>
       </div>
       <div class="product-body">
         <div class="product-number"><span>№ ${product.id}</span><span>${escapeHtml(product.reference)}</span></div>
@@ -70,8 +70,8 @@ function renderReady(products) {
           <button type="button" data-set="view" data-value="outfit">Образ</button>
         </div>
         <div class="product-bottom">
-          <div class="product-summary"><strong class="product-price">1 500 ₽</strong><span class="palette">Палитра к отшиву: ${escapeHtml(product.preferred_colors.join(' · '))}</span></div>
-          <button class="pick" type="button" data-pick="${product.id}">Выбрать →</button>
+          <div class="product-summary"><strong class="product-price">1 500 ₽</strong><span class="palette">Идея палитры: ${escapeHtml(product.preferred_colors.join(' · '))}</span></div>
+          <button class="pick" type="button" data-pick="${product.id}">Обсудить →</button>
         </div>
       </div>
     </article>`).join('');
@@ -102,11 +102,11 @@ function renderIdeas(products) {
     return `<article class="idea ready">
       <div class="idea-previews">${previews}</div>
       <div class="idea-copy">
-        <div class="idea-top"><span>№ ${product.id} · ${escapeHtml(product.reference)}</span><b>готов</b></div>
+        <div class="idea-top"><span>№ ${product.id} · ${escapeHtml(product.reference)}</span><b>идея</b></div>
         <h3>${escapeHtml(product.caption_latin)}</h3>
         <p>${escapeHtml(product.hook)}</p>
         <strong class="idea-price">Футболка 1 500 ₽ · Худи 3 000 ₽</strong>
-        <button type="button" data-pick="${product.id}">Выбрать принт →</button>
+        <button type="button" data-pick="${product.id}">Обсудить вариант →</button>
       </div>
     </article>`;
   }).join('');
@@ -128,16 +128,9 @@ function updateOrderSummary() {
   $('#order-preview-caption').textContent = `№${id} · ${product.caption_latin}`;
 }
 
-function updateSizeOptions(garment, preferred = '44') {
-  const select = $('#order-size');
-  if (garment === 'Худи') {
-    select.innerHTML = '<option value="Уточнить по замеру">Уточнить по замеру</option>';
-    $('#size-note').textContent = 'Размерную сетку худи подтвердим по замерам образца.';
-    return;
-  }
-  const sizes = ['42', '44', '46', '48', '50', '52', '54', '56'];
-  select.innerHTML = sizes.map((size) => `<option${size === preferred ? ' selected' : ''}>${size}</option>`).join('');
-  $('#size-note').textContent = 'Доступность выбранного размера подтвердим перед оплатой.';
+function updateSizeOptions() {
+  $('#order-size').innerHTML = '<option>Уточнить по замерам</option>';
+  $('#size-note').textContent = 'Размер и посадка подтверждаются в диалоге.';
 }
 
 function pickProduct(id, garment) {
@@ -193,44 +186,40 @@ function bindEvents() {
     updateOrderSummary();
   });
 
-  const dialog = $('#chart-dialog');
-  $('#chart-button').addEventListener('click', () => dialog.showModal());
-  $('button', dialog).addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', (event) => {
-    if (event.target === dialog) dialog.close();
+  $('#order-phone').addEventListener('input', (event) => {
+    event.target.value = event.target.value.replace(/\D/g, '').slice(0, 10);
   });
 
   $('#order-form').addEventListener('submit', async (event) => {
     event.preventDefault();
+    const phone = $('#order-phone').value;
+    if (phone && !/^\d{10}$/.test(phone)) {
+      showToast('Введи 10 цифр после +7 или оставь телефон пустым.');
+      return;
+    }
     const id = $('#order-product').value;
     const product = state.products.find((item) => item.id === id);
-    const delivery = $('input[name="delivery"]:checked').value;
     const garment = $('#order-garment').value;
-    const name = $('#order-name').value.trim() || 'не указано';
-    const phone = $('#order-phone').value.trim() || 'не указан';
     const message = [
-      'Хочу заказать ШЬЮХУ · КИНОДРОП 01',
+      'Хочу обсудить вариант ШЬЮХИ · КИНОДРОП 01',
       `Принт: №${id} — ${product.caption_latin}`,
       `Вещь: ${garment}`,
       `Стоимость изделия: ${priceLabel(garment)}`,
       `Размер: ${$('#order-size').value}`,
       `Цвет: ${$('#order-color').value}`,
-      `Получение: ${delivery}`,
-      `Имя: ${name}`,
-      `Телефон: ${phone}`,
+      ...(phone ? [`Телефон: +7${phone}`] : []),
       ...attributionLines(state.attribution),
-      'Прошу подтвердить наличие, получение и способ оплаты.'
+      'Прошу уточнить характеристики, доступность, получение и оплату. Для №01 прошу обсудить допустимый вариант с учётом прав.'
     ].join('\n');
     const copied = await copyText(message);
-    showToast(copied ? 'Заказ скопирован. Вставь его в открывшийся диалог MAX.' : 'Открою MAX — сообщение можно отправить вручную.');
-    window.setTimeout(() => window.open('https://max.ru/id183475103906_biz', '_blank', 'noopener,noreferrer'), 250);
+    showToast(copied ? 'Запрос скопирован. Открой диалог VK по ссылке под кнопкой и вставь его.' : 'Копирование недоступно. Открой диалог VK по ссылке под кнопкой и опиши свой вариант.');
   });
 }
 
 async function init() {
   try {
     state.attribution = captureAttribution();
-    const response = await fetch('collection.json?v=20260827-1');
+    const response = await fetch('collection.json?v=20260828-safe');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const collection = await response.json();
     state.products = collection.products;

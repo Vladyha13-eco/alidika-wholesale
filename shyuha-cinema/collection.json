@@ -12,10 +12,10 @@
       "ночной синий",
       "оливковый"
     ],
-    "t_shirt": "прямой свободный оверсайз; хлопок с лайкрой 92/8; 200 г/м²",
-    "hoodie": "прямой свободный оверсайз; плотная трёхнитка 320 г/м²",
+    "t_shirt": "Идея футболки; характеристики уточняются",
+    "hoodie": "Идея худи; характеристики уточняются",
     "production": "пошив в Ижевске",
-    "rights_note": "Точный кадр и лица требуют разрешения правообладателя. Для коммерческого запуска по умолчанию создаётся оригинальная пародийная сцена без копирования конкретного кадра и внешности актёров."
+    "rights_note": "Права на узнаваемые кинообразы требуют проверки; №01 не предлагается к безусловному изготовлению."
   },
   "products": [
     {
@@ -32,7 +32,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/01_twilight-dog_dark.png",
         "print_light": "prints/01_twilight-dog_light.png",
@@ -56,7 +56,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/02_sorting-done_dark.png",
         "print_light": "prints/02_sorting-done_light.png",
@@ -80,7 +80,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/03_matrix-sleep_dark.png",
         "print_light": "prints/03_matrix-sleep_light.png",
@@ -104,7 +104,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/04_titanic-arrived_dark.png",
         "print_light": "prints/04_titanic-arrived_light.png",
@@ -128,7 +128,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/05_monday-pass_dark.png",
         "print_light": "prints/05_monday-pass_light.png",
@@ -152,7 +152,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/06_swamp-donkey_dark.png",
         "print_light": "prints/06_swamp-donkey_light.png",
@@ -176,7 +176,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/07_pirate-plan_dark.png",
         "print_light": "prints/07_pirate-plan_light.png",
@@ -200,7 +200,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "first_batch_rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/08_home-bills_dark.png",
         "print_light": "prints/08_home-bills_light.png",
@@ -224,7 +224,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/09_terminator-vacation_dark.png",
         "print_light": "prints/09_terminator-vacation_light.png",
@@ -248,7 +248,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/10_pulp-money_dark.png",
         "print_light": "prints/10_pulp-money_light.png",
@@ -272,7 +272,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/11_godfather-offer_dark.png",
         "print_light": "prints/11_godfather-offer_light.png",
@@ -296,7 +296,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/12_leon-friends_dark.png",
         "print_light": "prints/12_leon-friends_light.png",
@@ -320,7 +320,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/13_joker-payday_dark.png",
         "print_light": "prints/13_joker-payday_light.png",
@@ -344,7 +344,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/14_fight-silence_dark.png",
         "print_light": "prints/14_fight-silence_light.png",
@@ -368,7 +368,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/15_psycho-font_dark.png",
         "print_light": "prints/15_psycho-font_light.png",
@@ -392,7 +392,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/16_lebowski-rug_dark.png",
         "print_light": "prints/16_lebowski-rug_light.png",
@@ -416,7 +416,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/17_prada-all_dark.png",
         "print_light": "prints/17_prada-all_light.png",
@@ -440,7 +440,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/18_legally-read_dark.png",
         "print_light": "prints/18_legally-read_light.png",
@@ -464,7 +464,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/19_pretty-expenses_dark.png",
         "print_light": "prints/19_pretty-expenses_light.png",
@@ -488,7 +488,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/20_mean-table_dark.png",
         "print_light": "prints/20_mean-table_light.png",
@@ -512,7 +512,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/21_barbie-job_dark.png",
         "print_light": "prints/21_barbie-job_light.png",
@@ -536,7 +536,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/22_wednesday-party_dark.png",
         "print_light": "prints/22_wednesday-party_light.png",
@@ -560,7 +560,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/23_addams-romance_dark.png",
         "print_light": "prints/23_addams-romance_light.png",
@@ -584,7 +584,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/24_dune-delivery_dark.png",
         "print_light": "prints/24_dune-delivery_light.png",
@@ -608,7 +608,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/25_blade-deadline_dark.png",
         "print_light": "prints/25_blade-deadline_light.png",
@@ -632,7 +632,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/26_alien-lunch_dark.png",
         "print_light": "prints/26_alien-lunch_light.png",
@@ -656,7 +656,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/27_jaws-swim_dark.png",
         "print_light": "prints/27_jaws-swim_light.png",
@@ -680,7 +680,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/28_rocky-stairs_dark.png",
         "print_light": "prints/28_rocky-stairs_light.png",
@@ -704,7 +704,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/29_ghost-cleaning_dark.png",
         "print_light": "prints/29_ghost-cleaning_light.png",
@@ -728,7 +728,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/30_vader-vacation_dark.png",
         "print_light": "prints/30_vader-vacation_light.png",
@@ -752,7 +752,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/31_yoda-deadline_dark.png",
         "print_light": "prints/31_yoda-deadline_light.png",
@@ -776,7 +776,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/32_indy-project_dark.png",
         "print_light": "prints/32_indy-project_light.png",
@@ -800,7 +800,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/33_future-monday_dark.png",
         "print_light": "prints/33_future-monday_light.png",
@@ -824,7 +824,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/34_mib-order_dark.png",
         "print_light": "prints/34_mib-order_light.png",
@@ -848,7 +848,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/35_mask-minute_dark.png",
         "print_light": "prints/35_mask-minute_light.png",
@@ -872,7 +872,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/36_shining-call_dark.png",
         "print_light": "prints/36_shining-call_light.png",
@@ -896,7 +896,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/37_scream-phone_dark.png",
         "print_light": "prints/37_scream-phone_light.png",
@@ -920,7 +920,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/38_corpse-wedding_dark.png",
         "print_light": "prints/38_corpse-wedding_light.png",
@@ -944,7 +944,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/39_wonka-bonus_dark.png",
         "print_light": "prints/39_wonka-bonus_light.png",
@@ -968,7 +968,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/40_dobby-free_dark.png",
         "print_light": "prints/40_dobby-free_light.png",
@@ -992,7 +992,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/41_gollum-package_dark.png",
         "print_light": "prints/41_gollum-package_light.png",
@@ -1016,7 +1016,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/42_throne-chair_dark.png",
         "print_light": "prints/42_throne-chair_light.png",
@@ -1040,7 +1040,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/43_peaky-calculation_dark.png",
         "print_light": "prints/43_peaky-calculation_light.png",
@@ -1064,7 +1064,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/44_stranger-wifi_dark.png",
         "print_light": "prints/44_stranger-wifi_light.png",
@@ -1088,7 +1088,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/45_squid-workday_dark.png",
         "print_light": "prints/45_squid-workday_light.png",
@@ -1112,7 +1112,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/46_office-zone_dark.png",
         "print_light": "prints/46_office-zone_light.png",
@@ -1136,7 +1136,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/47_friends-sofa_dark.png",
         "print_light": "prints/47_friends-sofa_light.png",
@@ -1160,7 +1160,7 @@
         "оливковый",
         "молочный"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/48_sherlock-today_dark.png",
         "print_light": "prints/48_sherlock-today_light.png",
@@ -1184,7 +1184,7 @@
         "молочный",
         "бордовый"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/49_last-normal_dark.png",
         "print_light": "prints/49_last-normal_light.png",
@@ -1208,7 +1208,7 @@
         "молочный",
         "ночной синий"
       ],
-      "status": "rendered",
+      "status": "concept",
       "assets": {
         "print_dark": "prints/50_budapest-control_dark.png",
         "print_light": "prints/50_budapest-control_light.png",

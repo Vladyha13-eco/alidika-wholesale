@@ -1,21 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27",
+  "updated_at": "2026-08-28",
   "publisher": "ШЬЮХА от АЛИДИКИ",
   "canonical_url": "https://alidika.ru/shyuha-cinema/",
   "language": "ru-RU",
-  "order_channel": "https://max.ru/id183475103906_biz",
+  "order_channel": "https://vk.me/alidika1",
   "fulfillment": {
-    "pickup": "Ижевск, Воткинское шоссе, 170",
-    "shipping": [
-      "СДЭК",
-      "Почта России"
-    ],
-    "shipping_paid_by": "buyer"
+    "confirmation_required": true
   },
   "materials": {
-    "tshirt": "хлопок с лайкрой 92/8, 200 г/м², прямой свободный оверсайз",
-    "hoodie": "плотная трёхнитка 320 г/м², прямой свободный оверсайз"
+    "confirmation_required": true
   },
   "products": [
     {
@@ -48,7 +42,10 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true,
+      "commercial_use": "rights_not_cleared"
     },
     {
       "id": "02",
@@ -80,7 +77,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "03",
@@ -112,7 +111,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "04",
@@ -144,7 +145,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "05",
@@ -176,7 +179,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "06",
@@ -208,7 +213,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "07",
@@ -240,7 +247,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "08",
@@ -272,7 +281,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "09",
@@ -304,7 +315,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "10",
@@ -336,7 +349,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "11",
@@ -368,7 +383,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "12",
@@ -400,7 +417,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "13",
@@ -432,7 +451,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "14",
@@ -464,7 +485,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "15",
@@ -496,7 +519,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "16",
@@ -528,7 +553,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "17",
@@ -560,7 +587,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "18",
@@ -592,7 +621,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "19",
@@ -624,7 +655,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "20",
@@ -656,7 +689,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "21",
@@ -688,7 +723,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "22",
@@ -720,7 +757,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "23",
@@ -752,7 +791,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "24",
@@ -784,7 +825,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "25",
@@ -816,7 +859,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "26",
@@ -848,7 +893,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "27",
@@ -880,7 +927,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "28",
@@ -912,7 +961,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "29",
@@ -944,7 +995,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "30",
@@ -976,7 +1029,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "31",
@@ -1008,7 +1063,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "32",
@@ -1040,7 +1097,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "33",
@@ -1072,7 +1131,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "34",
@@ -1104,7 +1165,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "35",
@@ -1136,7 +1199,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "36",
@@ -1168,7 +1233,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "37",
@@ -1200,7 +1267,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "38",
@@ -1232,7 +1301,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "39",
@@ -1264,7 +1335,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "40",
@@ -1296,7 +1369,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "41",
@@ -1328,7 +1403,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "42",
@@ -1360,7 +1437,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "43",
@@ -1392,7 +1471,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "44",
@@ -1424,7 +1505,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "45",
@@ -1456,7 +1539,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "46",
@@ -1488,7 +1573,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "47",
@@ -1520,7 +1607,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "48",
@@ -1552,7 +1641,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "49",
@@ -1584,7 +1675,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     },
     {
       "id": "50",
@@ -1616,7 +1709,9 @@
           "currency": "RUB",
           "confirmation_required": true
         }
-      }
+      },
+      "status": "concept",
+      "rights_confirmation_required": true
     }
   ],
   "attribution": {
@@ -1631,5 +1726,6 @@
     ],
     "order_message_includes_source": true,
     "visit_analytics": false
-  }
+  },
+  "catalog_type": "concepts_not_stock"
 }
