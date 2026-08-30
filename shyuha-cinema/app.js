@@ -47,14 +47,21 @@ const escapeHtml = (value) => String(value)
   .replaceAll('"', '&quot;')
   .replaceAll("'", '&#039;');
 
-function assetFor(product, garment, view) {
-  const key = `${garment}_${view}`;
-  return `assets/${product.assets[key].split('/').pop()}`;
+function normalizeColor(value) {
+  return value === 'white' || value === 'белый' ? 'white' : 'black';
+}
+
+function colorLabel(value) {
+  return normalizeColor(value) === 'white' ? 'белый' : 'чёрный';
+}
+
+function assetFor(product, garment, view, color = 'black') {
+  return `assets/${product.id}_${product.slug}_${garment}_${view}_${normalizeColor(color)}.webp`;
 }
 
 function renderReady(products) {
   $('#ready-grid').innerHTML = products.map((product) => `
-    <article class="product" data-id="${product.id}" data-garment="tshirt" data-view="product">
+    <article class="product" data-id="${product.id}" data-garment="tshirt" data-view="product" data-color="black">
       <div class="product-media">
         <img src="${assetFor(product, 'tshirt', 'product')}" alt="${escapeHtml(product.caption_ru)} — футболка, предметный вид">
         <span class="product-status">Визуализация</span>
@@ -68,6 +75,8 @@ function renderReady(products) {
           <button type="button" data-set="garment" data-value="hoodie">Худи</button>
           <button class="active" type="button" data-set="view" data-value="product">Вещь</button>
           <button type="button" data-set="view" data-value="outfit">Образ</button>
+          <button class="active color-switch" type="button" data-set="color" data-value="black">Чёрный</button>
+          <button class="color-switch" type="button" data-set="color" data-value="white">Белый</button>
         </div>
         <div class="product-bottom">
           <div class="product-summary"><strong class="product-price">1 500 ₽</strong><span class="palette">Идея палитры: ${escapeHtml(product.preferred_colors.join(' · '))}</span></div>
@@ -86,8 +95,8 @@ function renderReady(products) {
       const product = state.products.find((item) => item.id === card.dataset.id);
       const image = $('.product-media img', card);
       image.style.opacity = '.25';
-      image.src = assetFor(product, card.dataset.garment, card.dataset.view);
-      image.alt = `${product.caption_ru} — ${card.dataset.garment === 'tshirt' ? 'футболка' : 'худи'}, ${card.dataset.view === 'product' ? 'предметный вид' : 'образ'}`;
+      image.src = assetFor(product, card.dataset.garment, card.dataset.view, card.dataset.color);
+      image.alt = `${product.caption_ru} — ${card.dataset.garment === 'tshirt' ? 'футболка' : 'худи'}, ${colorLabel(card.dataset.color)}, ${card.dataset.view === 'product' ? 'предметный вид' : 'образ'}`;
       image.onload = () => { image.style.opacity = '1'; };
       $('.product-price', card).textContent = priceLabel(card.dataset.garment === 'hoodie' ? 'Худи' : 'Футболка');
     });
@@ -98,14 +107,20 @@ function renderIdeas(products) {
   $('#idea-grid').innerHTML = products.map((product) => {
     const files = ['tshirt_product', 'tshirt_outfit', 'hoodie_product', 'hoodie_outfit'];
     const labels = ['футболка', 'образ с футболкой', 'худи', 'образ с худи'];
-    const previews = files.map((key, index) => `<img loading="lazy" src="${assetFor(product, ...key.split('_'))}" alt="${escapeHtml(product.caption_ru)} — ${labels[index]}">`).join('');
-    return `<article class="idea ready">
+    const previews = files.map((key, index) => `<img loading="lazy" data-asset="${key}" src="${assetFor(product, ...key.split('_'), 'black')}" alt="${escapeHtml(product.caption_ru)} — ${labels[index]}, чёрный">`).join('');
+    return `<article class="idea ready" data-id="${product.id}" data-garment="tshirt" data-color="black">
       <div class="idea-previews">${previews}</div>
       <div class="idea-copy">
         <div class="idea-top"><span>№ ${product.id} · ${escapeHtml(product.reference)}</span><b>идея</b></div>
         <h3>${escapeHtml(product.caption_latin)}</h3>
         <p>${escapeHtml(product.hook)}</p>
         <strong class="idea-price">Футболка 1 500 ₽ · Худи 3 000 ₽</strong>
+        <div class="switches idea-switches" aria-label="Вещь и цвет">
+          <button class="active" type="button" data-set="garment" data-value="tshirt">Футболка</button>
+          <button type="button" data-set="garment" data-value="hoodie">Худи</button>
+          <button class="active color-switch" type="button" data-set="color" data-value="black">Чёрный</button>
+          <button class="color-switch" type="button" data-set="color" data-value="white">Белый</button>
+        </div>
         <button type="button" data-pick="${product.id}">Обсудить вариант →</button>
       </div>
     </article>`;
@@ -123,8 +138,9 @@ function updateOrderSummary() {
   const garment = garmentLabel === 'Худи' ? 'hoodie' : 'tshirt';
   if (!product) return;
   $('#order-price').textContent = priceLabel(garmentLabel);
-  $('#order-preview').src = assetFor(product, garment, 'product');
-  $('#order-preview').alt = `${product.caption_ru} — ${garmentLabel.toLowerCase()}`;
+  const color = normalizeColor($('#order-color').value);
+  $('#order-preview').src = assetFor(product, garment, 'product', color);
+  $('#order-preview').alt = `${product.caption_ru} — ${garmentLabel.toLowerCase()}, ${colorLabel(color)}`;
   $('#order-preview-caption').textContent = `№${id} · ${product.caption_latin}`;
 }
 
@@ -133,11 +149,10 @@ function updateSizeOptions() {
   $('#size-note').textContent = 'Размер и посадка подтверждаются в диалоге.';
 }
 
-function pickProduct(id, garment) {
+function pickProduct(id, garment, color) {
   $('#order-product').value = id;
   $('#order-number').textContent = `#${id}`;
-  const product = state.products.find((item) => item.id === id);
-  if (product?.preferred_colors?.length) $('#order-color').value = product.preferred_colors[0];
+  $('#order-color').value = colorLabel(color);
   if (garment) {
     const garmentLabel = garment === 'hoodie' ? 'Худи' : 'Футболка';
     $('#order-garment').value = garmentLabel;
@@ -174,7 +189,27 @@ async function copyText(text) {
 function bindEvents() {
   document.addEventListener('click', (event) => {
     const pick = event.target.closest('[data-pick]');
-    if (pick) pickProduct(pick.dataset.pick, pick.closest('.product')?.dataset.garment);
+    if (pick) {
+      const card = pick.closest('.product, .idea');
+      pickProduct(pick.dataset.pick, card?.dataset.garment, card?.dataset.color);
+    }
+  });
+
+  $$('.idea').forEach((card) => {
+    $('.idea-switches', card).addEventListener('click', (event) => {
+      const button = event.target.closest('button[data-set]');
+      if (!button) return;
+      const group = button.dataset.set;
+      card.dataset[group] = button.dataset.value;
+      $$(`[data-set="${group}"]`, card).forEach((item) => item.classList.toggle('active', item === button));
+      if (group !== 'color') return;
+      const product = state.products.find((item) => item.id === card.dataset.id);
+      $$('img[data-asset]', card).forEach((image) => {
+        const [garment, view] = image.dataset.asset.split('_');
+        image.src = assetFor(product, garment, view, card.dataset.color);
+        image.alt = `${product.caption_ru} — ${garment === 'tshirt' ? 'футболка' : 'худи'}, ${view === 'product' ? 'предметный вид' : 'образ'}, ${colorLabel(card.dataset.color)}`;
+      });
+    });
   });
 
   $('#order-product').addEventListener('change', (event) => {
@@ -185,6 +220,7 @@ function bindEvents() {
     updateSizeOptions(event.target.value);
     updateOrderSummary();
   });
+  $('#order-color').addEventListener('change', updateOrderSummary);
 
   $('#order-phone').addEventListener('input', (event) => {
     event.target.value = event.target.value.replace(/\D/g, '').slice(0, 10);
@@ -219,7 +255,7 @@ function bindEvents() {
 async function init() {
   try {
     state.attribution = captureAttribution();
-    const response = await fetch('collection.json?v=20260828-safe');
+    const response = await fetch('collection.json?v=20260830-bw');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const collection = await response.json();
     state.products = collection.products;
@@ -238,8 +274,7 @@ async function init() {
     const requestedGarment = params.get('garment') === 'hoodie' ? 'Худи' : 'Футболка';
     $('#order-garment').value = requestedGarment;
     updateSizeOptions(requestedGarment, params.get('size') || '44');
-    const requestedColor = params.get('color') === 'black' ? 'чёрный' : params.get('color');
-    if (requestedColor && [...$('#order-color').options].some((option) => option.value === requestedColor)) $('#order-color').value = requestedColor;
+    $('#order-color').value = colorLabel(params.get('color'));
     updateOrderSummary();
 
     if (window.location.hash) {
