@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "brand": "АЛИДИКА",
+    "currency": "RUB",
+    "price_unit": "per_item",
+    "prices_include_branding": false,
+    "source": "commercial proposal supplied by the user",
+    "price_status": "confirmed current by the user on 2026-09-02",
+    "note": "Branding and individual packaging are calculated separately. Final price may change after confirming quantity, material, design and configuration."
+  },
+  "products": [
+    {
+      "id": "bag-shopper-favorit",
+      "category": "bags_accessories",
+      "name": "Шоппер",
+      "material": "Фаворит",
+      "composition": "65% полиэстер, 35% хлопок",
+      "density_g_m2": 240,
+      "price_tiers": { "100": 160, "300": 155, "500": 150, "1000": 145 }
+    },
+    {
+      "id": "bag-shopper-gretta",
+      "category": "bags_accessories",
+      "name": "Шоппер",
+      "material": "Грета",
+      "composition": "70% полиэстер, 30% хлопок",
+      "density_g_m2": 210,
+      "price_tiers": { "100": 125, "300": 115, "500": 110 }
+    },
+    {
+      "id": "bag-shopper-zip-favorit",
+      "category": "bags_accessories",
+      "name": "Шоппер на молнии",
+      "material": "Фаворит",
+      "price_tiers": { "50": 220, "100": 210, "300": 200, "500": 190, "1000": 180 }
+    },
+    {
+      "id": "bag-shopper-zip-gretta",
+      "category": "bags_accessories",
+      "name": "Шоппер на молнии",
+      "material": "Грета",
+      "price_tiers": { "50": 180, "100": 170, "300": 160, "500": 150, "1000": 140 }
+    },
+    {
+      "id": "bag-shoulder-oxford600",
+      "category": "bags_accessories",
+      "name": "Сумка через плечо",
+      "material": "Оксфорд 600 ПВХ",
+      "price_tiers": { "50": 350, "100": 330, "200": 320, "300": 310, "500": 300, "1000": 290 }
+    },
+    {
+      "id": "bag-waist-oxford600",
+      "category": "bags_accessories",
+      "name": "Сумка поясная",
+      "material": "Оксфорд 600 ПВХ",
+      "price_tiers": { "50": 250, "100": 240, "200": 230, "300": 220, "500": 210, "1000": 200 }
+    },
+    {
+      "id": "backpack-drawstring-oxford600",
+      "category": "bags_accessories",
+      "name": "Рюкзак-мешок",
+      "material": "Оксфорд 600 ПВХ",
+      "price_tiers": { "50": 700, "100": 650, "200": 600, "300": 550, "500": 500, "1000": 450 }
+    },
+    {
+      "id": "bag-shoes-oxford200",
+      "category": "bags_accessories",
+      "name": "Сумка для обуви",
+      "material": "Оксфорд 200",
+      "price_tiers": { "50": 155, "100": 150, "200": 145, "300": 140, "500": 135, "1000": 130 }
+    },
+    {
+      "id": "pencil-case-oxford600",
+      "category": "bags_accessories",
+      "name": "Пенал",
+      "material": "Оксфорд 600 ПВХ",
+      "price_tiers": { "50": 130, "100": 125, "200": 120, "300": 115, "500": 110, "1000": 105 }
+    },
+    {
+      "id": "garment-bag-oxford300",
+      "category": "bags_accessories",
+      "name": "Чехол для одежды",
+      "material": "Оксфорд 300",
+      "price_tiers": { "50": 700, "100": 650, "300": 630, "500": 600 }
+    },
+    {
+      "id": "tshirt-false-mesh-140",
+      "category": "apparel",
+      "name": "Футболка для сублимации",
+      "material": "Ложная сетка",
+      "composition": "100% полиэстер",
+      "density_g_m2": 140,
+      "color_condition": "Белая",
+      "price_tiers": { "50": 350, "100": 330, "200": 310, "300": 290, "500": 280, "1000": 270 }
+    },
+    {
+      "id": "tshirt-false-mesh-220",
+      "category": "apparel",
+      "name": "Футболка для сублимации",
+      "material": "Ложная сетка",
+      "composition": "100% полиэстер",
+      "density_g_m2": 220,
+      "color_condition": "Белая",
+      "price_tiers": { "50": 420, "100": 400, "200": 380, "300": 360, "500": 340, "1000": 320 }
+    },
+    {
+      "id": "tshirt-cotton-open-end-140",
+      "category": "apparel",
+      "name": "Футболка",
+      "material": "Кулирная гладь, open-end",
+      "composition": "100% хлопок",
+      "density_g_m2": 140,
+      "price_tiers": { "50": 370, "100": 360, "300": 350, "500": 340, "1000": 330 }
+    },
+    {
+      "id": "tshirt-cotton-lycra-peigne-190",
+      "category": "apparel",
+      "name": "Футболка",
+      "material": "Кулирная гладь, пенье",
+      "composition": "92% хлопок, 8% эластан",
+      "density_g_m2": 190,
+      "price_tiers": { "50": 600, "100": 580, "200": 560, "300": 540, "500": 520, "1000": 500 }
+    },
+    {
+      "id": "hoodie-3thread-fleece",
+      "category": "apparel",
+      "name": "Худи",
+      "material": "Футер 3-нитка с начёсом",
+      "price_tiers": { "50": 1850, "100": 1800, "200": 1750, "300": 1700, "500": 1650, "1000": 1600 }
+    },
+    {
+      "id": "hoodie-3thread-loopback",
+      "category": "apparel",
+      "name": "Худи",
+      "material": "Футер 3-нитка петля",
+      "price_tiers": { "50": 1850, "100": 1800, "200": 1750, "300": 1700, "500": 1650, "1000": 1600 }
+    },
+    {
+      "id": "sweatshirt-2thread",
+      "category": "apparel",
+      "name": "Свитшот",
+      "material": "Футер 2-нитка",
+      "price_tiers": { "50": 930, "100": 900, "200": 870, "300": 850, "500": 820, "1000": 800 }
+    },
+    {
+      "id": "longsleeve-2thread",
+      "category": "apparel",
+      "name": "Лонгслив",
+      "material": "Футер 2-нитка",
+      "price_tiers": { "50": 930, "100": 900, "200": 870, "300": 850, "500": 820, "1000": 800 }
+    },
+    {
+      "id": "bomber-3thread-fleece",
+      "category": "apparel",
+      "name": "Бомбер",
+      "material": "Футер 3-нитка с начёсом",
+      "price_tiers": { "50": 2300, "100": 2200, "300": 2000, "500": 1800, "1000": 1700 }
+    },
+    {
+      "id": "bomber-3thread-loopback",
+      "category": "apparel",
+      "name": "Бомбер",
+      "material": "Футер 3-нитка петля",
+      "price_tiers": { "50": 2300, "100": 2200, "300": 2000, "500": 1800, "1000": 1700 }
+    },
+    {
+      "id": "panama-gretta",
+      "category": "headwear",
+      "name": "Панама",
+      "material": "Грета",
+      "price_tiers": { "50": 260, "100": 250, "200": 240, "300": 230, "500": 220, "1000": 210 }
+    }
+  ],
+  "branding": [
+    {
+      "id": "dtf-a4",
+      "name": "DTF-печать",
+      "description": "Полноцветное нанесение примерно формата A4 на подходящие материалы",
+      "price_per_item": 190
+    },
+    {
+      "id": "sublimation-a4",
+      "name": "Сублимация",
+      "description": "Полноцветное нанесение примерно формата A4 на полиэстер",
+      "price_per_item": 90
+    },
+    {
+      "id": "screenprint-1color-a4",
+      "name": "Шелкография",
+      "description": "Нанесение в 1 цвет примерно формата A4",
+      "price_per_item": 50
+    },
+    {
+      "id": "individual-packaging",
+      "name": "Индивидуальная упаковка",
+      "price_per_item": 5
+    }
+  ],
+  "material_branding_notes": [
+    "Ткань Фаворит подходит для шелкографии до 5 цветов и DTF. Сублимация возможна только на белой ткани с синтетическим составом.",
+    "По исходному прайсу печать на ткани Грета указана только для белого и бежевого цветов."
+  ]
+}
