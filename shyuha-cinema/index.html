@@ -16,7 +16,7 @@
   <meta property="og:image" content="https://alidika.ru/shyuha-cinema/assets/01_twilight-dog_tshirt_outfit.webp">
   <title>Футболки и худи с мем-принтами — ШЬЮХА от АЛИДИКИ</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23d9ff57'/%3E%3Ctext x='9' y='46' font-family='Arial Black' font-size='38' fill='%230a0a0b'%3EШ%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20260830-bw">
+  <link rel="stylesheet" href="styles.css?v=20260905-vk-bot">
   <link rel="stylesheet" href="seo.css?v=20260827-1">
 
 
@@ -104,11 +104,11 @@
     <section class="order shell" id="order">
       <div class="order-intro">
         <p class="kicker">ТРИ ШАГА</p>
-        <h2>Выбрал. Отправил.<br><em>Готово.</em></h2>
+        <h2>Твоя вещь.<br><em>Твой запрос.</em></h2>
         <ol>
           <li><b>01</b><span>Выбери принт, вещь, цвет и размер.</span></li>
-          <li><b>02</b><span>Скопируй заявку.</span></li>
-          <li><b>03</b><span>Отправь её в VK — подтвердим заказ.</span></li>
+          <li><b>02</b><span>Проверь готовую заявку и нажми «Открыть заказ в VK».</span></li>
+          <li><b>03</b><span>В VK нажми «Начать» — бот покажет заявку в диалоге.</span></li>
         </ol>
       </div>
 
@@ -118,15 +118,17 @@
         <label>Принт<select id="order-product"></select></label>
         <div class="two-cols">
           <label>Вещь<select id="order-garment"><option value="Футболка">Футболка</option><option value="Худи">Худи</option></select></label>
-          <label>Размер<select id="order-size"><option>Уточнить по замерам</option></select><small id="size-note">Посадку уточним в диалоге.</small></label>
+          <label>Размер<select id="order-size"><option>Уточнить по замерам</option><option>44</option><option>46</option><option>48</option><option>50</option><option>52</option><option>54</option><option>56</option></select><small id="size-note">Укажи свой размер. Наличие и посадку уточним в VK.</small></label>
         </div>
         <label>Цвет<select id="order-color"><option>чёрный</option><option>белый</option></select></label>
-        <label>Телефон (необязательно)<span style="display:flex;align-items:center;gap:12px"><span aria-hidden="true">+7</span><input id="order-phone" type="tel" inputmode="numeric" autocomplete="off" maxlength="10" pattern="[0-9]{10}" aria-label="Телефон: после +7 введи 10 цифр" aria-describedby="phone-note" placeholder="9512033933"></span></label>
-        <p class="form-note" id="phone-note">10 цифр после +7. Можно не указывать.</p>
         <div class="price-gate"><span>Стоимость изделия</span><strong id="order-price">1 500 ₽</strong></div>
-        <p class="delivery-note">Наличие и доставку подтвердим в сообщении.</p>
-        <button class="button button-hot order-submit" type="submit">Скопировать запрос</button>
-        <p class="form-note" id="form-note">Скопируй заявку и отправь её в <a href="https://vk.me/alidika1" target="_blank" rel="noreferrer">VK</a>.</p>
+        <p class="delivery-note">Без доставки. Наличие, срок отправки и итоговую сумму подтвердим лично в VK. Оплата — после согласования.</p>
+        <label class="order-draft-label" for="order-draft">Готовая заявка<textarea id="order-draft" rows="10" readonly aria-describedby="form-note"></textarea></label>
+        <div class="checkout-actions" aria-label="Действия с заказом">
+          <button class="button checkout-vk" id="order-copy-vk" type="button">Открыть заказ в VK →</button>
+          <a class="button checkout-fallback" href="https://vk.me/alidika1" target="_blank" rel="noreferrer">Открыть VK ↗</a>
+        </div>
+        <p class="form-note" id="form-note">В VK нажми «Начать». Бот покажет готовую заявку в диалоге — печатать и вставлять текст не нужно.</p>
       </form>
     </section>
 
@@ -150,6 +152,6 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="app.js?v=20260830-bw" defer></script>
+  <script src="app.js?v=20260905-vk-bot" defer></script>
 </body>
 </html>

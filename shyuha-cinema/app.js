@@ -1,6 +1,9 @@
 const readyIds = new Set(Array.from({ length: 50 }, (_, index) => String(index + 1).padStart(2, '0')));
 const featuredIds = new Set(['01', '02', '03', '04', '05', '08']);
-const state = { products: [], attribution: null };
+const state = { products: [], attribution: null, pendingOrder: null };
+const checkoutConfig = {
+  vkUrl: 'https://vk.me/alidika1',
+};
 
 const attributionStorageKey = 'shyuha_attribution_v1';
 const attributionKeys = ['ref', 'source', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
@@ -142,11 +145,13 @@ function updateOrderSummary() {
   $('#order-preview').src = assetFor(product, garment, 'product', color);
   $('#order-preview').alt = `${product.caption_ru} — ${garmentLabel.toLowerCase()}, ${colorLabel(color)}`;
   $('#order-preview-caption').textContent = `№${id} · ${product.caption_latin}`;
+  updateOrderDraft();
 }
 
-function updateSizeOptions() {
-  $('#order-size').innerHTML = '<option>Уточнить по замерам</option>';
-  $('#size-note').textContent = 'Размер и посадка подтверждаются в диалоге.';
+function updateSizeOptions(selected) {
+  const sizes = ['Уточнить по замерам', '44', '46', '48', '50', '52', '54', '56'];
+  $('#order-size').innerHTML = sizes.map((size) => `<option${size === selected ? ' selected' : ''}>${size}</option>`).join('');
+  $('#size-note').textContent = 'Укажи свой размер. Наличие и посадку уточним в VK.';
 }
 
 function pickProduct(id, garment, color) {
@@ -156,7 +161,7 @@ function pickProduct(id, garment, color) {
   if (garment) {
     const garmentLabel = garment === 'hoodie' ? 'Худи' : 'Футболка';
     $('#order-garment').value = garmentLabel;
-    updateSizeOptions(garmentLabel);
+    updateSizeOptions($('#order-size').value);
   }
   updateOrderSummary();
   $('#order').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -169,21 +174,70 @@ function showToast(message) {
   window.setTimeout(() => toast.classList.remove('show'), 3400);
 }
 
-async function copyText(text) {
+function buildOrder() {
+  const product = state.products.find((item) => item.id === $('#order-product').value);
+  const garment = $('#order-garment').value;
+  return {
+    product_id: product.id,
+    product_name: product.caption_latin,
+    garment,
+    color: $('#order-color').value,
+    size: $('#order-size').value,
+    amount: prices[garment],
+    currency: 'RUB',
+    attribution: Object.fromEntries(attributionKeys
+      .map((key) => [key, state.attribution?.[key]])
+      .filter(([, value]) => value)),
+  };
+}
+
+function preserveOrder(order) {
+  state.pendingOrder = order;
+  const url = new URL(window.location.href);
+  url.searchParams.set('product', order.product_id);
+  url.searchParams.set('garment', order.garment === 'Худи' ? 'hoodie' : 'tshirt');
+  url.searchParams.set('color', order.color === 'белый' ? 'white' : 'black');
+  url.searchParams.set('size', order.size);
+  Object.entries(order.attribution).forEach(([key, value]) => url.searchParams.set(key, value));
+  window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+}
+
+function orderText(order) {
+  return [
+    'Привет! Хочу заказать вещь из КИНОДРОПА.',
+    'ШЬЮХА · КИНОДРОП',
+    `Принт: №${order.product_id} — ${order.product_name}`,
+    `Вещь: ${order.garment}`,
+    `Цвет: ${order.color}`,
+    `Размер: ${order.size}`,
+    `Цена на сайте: ${order.amount.toLocaleString('ru-RU')} ₽, без доставки`,
+    'Подтвердите, пожалуйста, наличие, посадку, срок отправки, доставку и итоговую сумму. Оплату обсудим в диалоге.',
+    ...attributionLines(order.attribution),
+  ].join('\n');
+}
+
+function updateOrderDraft() {
   try {
-    await navigator.clipboard.writeText(text);
-    return true;
+    $('#order-draft').value = orderText(buildOrder());
   } catch {
-    const area = document.createElement('textarea');
-    area.value = text;
-    area.style.position = 'fixed';
-    area.style.opacity = '0';
-    document.body.append(area);
-    area.select();
-    const copied = document.execCommand('copy');
-    area.remove();
-    return copied;
+    $('#order-draft').value = 'Введи 10 цифр после +7 или оставь телефон пустым — здесь появится готовая заявка.';
   }
+}
+
+function botOrderRef(order) {
+  const garment = order.garment === 'Худи' ? 'h' : 't';
+  const color = order.color === 'белый' ? 'w' : 'b';
+  const size = /^\d{2}$/.test(order.size) ? order.size : 'ask';
+  return `kd1.${order.product_id}.${garment}.${color}.${size}`;
+}
+
+function openOrderInVk() {
+  const order = buildOrder();
+  preserveOrder(order);
+  const url = new URL(checkoutConfig.vkUrl);
+  url.searchParams.set('ref', botOrderRef(order));
+  url.searchParams.set('ref_source', 'kinodrop');
+  window.location.assign(url.toString());
 }
 
 function bindEvents() {
@@ -217,39 +271,14 @@ function bindEvents() {
     updateOrderSummary();
   });
   $('#order-garment').addEventListener('change', (event) => {
-    updateSizeOptions(event.target.value);
+    updateSizeOptions($('#order-size').value);
     updateOrderSummary();
   });
   $('#order-color').addEventListener('change', updateOrderSummary);
+  $('#order-size').addEventListener('change', updateOrderDraft);
 
-  $('#order-phone').addEventListener('input', (event) => {
-    event.target.value = event.target.value.replace(/\D/g, '').slice(0, 10);
-  });
-
-  $('#order-form').addEventListener('submit', async (event) => {
-    event.preventDefault();
-    const phone = $('#order-phone').value;
-    if (phone && !/^\d{10}$/.test(phone)) {
-      showToast('Введи 10 цифр после +7 или оставь телефон пустым.');
-      return;
-    }
-    const id = $('#order-product').value;
-    const product = state.products.find((item) => item.id === id);
-    const garment = $('#order-garment').value;
-    const message = [
-      'Хочу обсудить вариант ШЬЮХИ · КИНОДРОП 01',
-      `Принт: №${id} — ${product.caption_latin}`,
-      `Вещь: ${garment}`,
-      `Стоимость изделия: ${priceLabel(garment)}`,
-      `Размер: ${$('#order-size').value}`,
-      `Цвет: ${$('#order-color').value}`,
-      ...(phone ? [`Телефон: +7${phone}`] : []),
-      ...attributionLines(state.attribution),
-      'Прошу уточнить характеристики, доступность, получение и оплату. Для №01 прошу обсудить допустимый вариант с учётом прав.'
-    ].join('\n');
-    const copied = await copyText(message);
-    showToast(copied ? 'Запрос скопирован. Открой диалог VK по ссылке под кнопкой и вставь его.' : 'Копирование недоступно. Открой диалог VK по ссылке под кнопкой и опиши свой вариант.');
-  });
+  $('#order-form').addEventListener('submit', (event) => event.preventDefault());
+  $('#order-copy-vk').addEventListener('click', openOrderInVk);
 }
 
 async function init() {
@@ -273,7 +302,7 @@ async function init() {
     }
     const requestedGarment = params.get('garment') === 'hoodie' ? 'Худи' : 'Футболка';
     $('#order-garment').value = requestedGarment;
-    updateSizeOptions(requestedGarment, params.get('size') || '44');
+    updateSizeOptions(params.get('size') || 'Уточнить по замерам');
     $('#order-color').value = colorLabel(params.get('color'));
     updateOrderSummary();
 
