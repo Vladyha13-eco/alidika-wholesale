@@ -1,8 +1,8 @@
 {
-  "endpoint": "https://nissan-speaker-clearing-girlfriend.trycloudflare.com/api/requests",
   "publicKey": {
     "kty": "RSA",
     "n": "otLNBtQsw91CQqUTiVRPoC9iIAQ8FunE1vsBnicmEAK2eF9tpudndCAaEuMYCCi3WQhndvOUaYdUygO5nTmSA68xxwVeO76opl83eGvVFuzUR29XbZAxVIdVLBA1KgzIAsGRL568VysbNHnofhUB0-A-YmtT5hRWOuV8F6fE5VI0QPvLEKjIdOj2CdgDDYVKY0B8oHfiGBt9JqUBUd8F8zJHw3ov_5zvopbQM9rBCF3wFTCf3kphaGf0vyK4RCTW18d75QFuUMiVN14uR0-BBk9IztfbMmpDBr2ZxAFzch_tSTY2dFpz0PXsKYCBxYE4tq1Famr5YzAaXJiH-0ehS6ZUnQghL8D8KiNmkNG7NOp2vDd8khTCj22gnlzau7xzvyLNnCg13PD7_ShjH4HnUicl-Dw9w28bCV13KjxQMzkMSahQR_AiUBkVhrM0e1XE1Vk50rmwYGvlqn6F6NqBLPS_B0H-R2lEQYVD1rJpSSM-V6lE2YcTcFCOkhsSy-NB",
     "e": "AQAB"
-  }
+  },
+  "endpoint": "https://triumph-preliminary-lawyer-coal.trycloudflare.com/api/requests"
 }
