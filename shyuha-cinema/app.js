@@ -224,20 +224,10 @@ function updateOrderDraft() {
   }
 }
 
-function botOrderRef(order) {
-  const garment = order.garment === 'Худи' ? 'h' : 't';
-  const color = order.color === 'белый' ? 'w' : 'b';
-  const size = /^\d{2}$/.test(order.size) ? order.size : 'ask';
-  return `kd1.${order.product_id}.${garment}.${color}.${size}`;
-}
-
 function openOrderInVk() {
   const order = buildOrder();
   preserveOrder(order);
-  const url = new URL(checkoutConfig.vkUrl);
-  url.searchParams.set('ref', botOrderRef(order));
-  url.searchParams.set('ref_source', 'kinodrop');
-  window.location.assign(url.toString());
+  window.location.assign(checkoutConfig.vkUrl);
 }
 
 function bindEvents() {
