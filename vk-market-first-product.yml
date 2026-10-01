@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-10-01 14:30">
+  <shop>
+    <name>АЛИДИКА</name>
+    <company>АЛИДИКА</company>
+    <url>https://alidika.ru/</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Футболки</category>
+    </categories>
+    <offers>
+      <offer id="tshirt-false-mesh-140" available="true">
+        <url>https://alidika.ru/catalog/futbolki-optom/</url>
+        <price>270</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v3/1.jpg</picture>
+        <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v3/3.jpg</picture>
+        <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v3/4.jpg</picture>
+        <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v3/5.jpg</picture>
+        <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v3/6.jpg</picture>
+        <name>Футболка для сублимации — ложная сетка 140 г/м²</name>
+        <description>Лёгкая спортивная футболка для массового мерча, промокоманд и мероприятий. Материал: ложная сетка. Состав: 100% полиэстер. Плотность: 140 г/м². Белый полиэстер подходит для полноцветной сублимации. Цены по тиражу: 50 шт — 350 ₽/шт; 100 шт — 330 ₽/шт; 200 шт — 310 ₽/шт; 300 шт — 290 ₽/шт; 500 шт — 280 ₽/шт; 1000 шт — 270 ₽/шт. Нанесение и индивидуальная упаковка рассчитываются отдельно. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед заказом. Первое изображение показывает однотонную футболку без нанесения; остальные изображения — визуализации вариантов нанесения.</description>
+        <sales_notes>От 270 ₽/шт при тираже 1000 шт</sales_notes>
+        <vendor>АЛИДИКА</vendor>
+        <vendorCode>tshirt-false-mesh-140</vendorCode>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
