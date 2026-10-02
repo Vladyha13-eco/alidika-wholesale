@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-10-02 15:19">
+  <shop>
+    <name>АЛИДИКА</name>
+    <company>АЛИДИКА</company>
+    <url>https://alidika.ru/</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="2">Худи, свитшоты и лонгсливы</category>
+    </categories>
+    <offers>
+      <offer id="hoodie-3thread-fleece-svoi-20261002" available="true">
+        <url>https://alidika.ru/catalog/hudi-svitshoty-optom/</url>
+        <price>1600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/1-plain-premium-cocoa.png</picture>
+        <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/2-small-logo-svoi-dusty-blue.png</picture>
+        <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/3-large-logo-svoi-ivory.png</picture>
+        <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/4-team-svoi-10-people.png</picture>
+        <name>Худи для команды — футер 3-нитка с начёсом</name>
+        <description>Тёплое худи из футера 3-нитки с начёсом — плотная и комфортная основа для корпоративной одежды, формы команды и фирменного мерча. Свободный современный силуэт, объёмный капюшон, карман-кенгуру, манжеты и нижняя резинка. Цена от 1600 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 1850 ₽/шт; 100 шт — 1800 ₽/шт; 200 шт — 1750 ₽/шт; 300 шт — 1700 ₽/шт; 500 шт — 1650 ₽/шт; 1000 шт — 1600 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, шелкографию или вышивку — выбираем под ткань, макет и тираж. При необходимости разработаем фирменный стиль и дизайн нанесения с нуля или подготовим визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском. На первом изображении — однотонное худи без нанесения; далее — варианты с малым и крупным логотипом; на четвёртом — командная концепция. Бренд «СВОИ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа.</description>
+        <sales_notes>От 1600 ₽/шт при тираже 1000 шт</sales_notes>
+        <vendor>АЛИДИКА</vendor>
+        <vendorCode>hoodie-3thread-fleece-svoi-20261002</vendorCode>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
