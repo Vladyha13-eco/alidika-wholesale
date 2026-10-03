@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-03 15:30">
+<yml_catalog date="2026-10-03 13:29">
   <shop>
     <name>АЛИДИКА</name>
     <company>АЛИДИКА</company>
@@ -9,7 +9,6 @@
       <category id="1">Футболки</category>
       <category id="2">Худи, свитшоты и лонгсливы</category>
       <category id="3">Бомберы</category>
-      <category id="4">Шопперы</category>
       <category id="5">Сумки и аксессуары</category>
       <category id="6">Панамы</category>
     </categories>
@@ -163,66 +162,6 @@
       <sales_notes>Цена от 1700 ₽/шт при тираже 1000 шт</sales_notes>
       <vendor>АЛИДИКА</vendor>
       <vendorCode>bomber-3thread-loopback</vendorCode>
-    </offer>
-    <offer id="bag-shopper-favorit" available="true">
-      <url>https://alidika.ru/catalog/shoppery-optom/</url>
-      <price>145</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>4</categoryId>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/1-main-plain-muted-clay.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/2-small-logo-mesto-sage.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/3-large-logo-mesto-ink-blue.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/4-team-mesto-10-people.png</picture>
-      <name>Плотный шоппер — Фаворит 240 г/м²</name>
-      <description>Фаворит плотнее Греты на 30 г/м² и ощущается основательнее — для наборов, выставок и розницы. Материал: Фаворит. Состав: 65% полиэстер, 35% хлопок. Плотность: 240 г/м². Цена от 145 ₽/шт при тираже 1000 шт. Цены по тиражу: 100 шт — 160 ₽/шт; 300 шт — 155 ₽/шт; 500 шт — 150 ₽/шт; 1000 шт — 145 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «МЕСТО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
-      <sales_notes>Цена от 145 ₽/шт при тираже 1000 шт</sales_notes>
-      <vendor>АЛИДИКА</vendor>
-      <vendorCode>bag-shopper-favorit</vendorCode>
-    </offer>
-    <offer id="bag-shopper-gretta" available="true">
-      <url>https://alidika.ru/catalog/shoppery-optom/</url>
-      <price>110</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>4</categoryId>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/1-main-plain-powder-blue.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/2-small-logo-tiho-warm-peach.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/3-large-logo-tiho-forest-green.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/4-team-tiho-10-people.png</picture>
-      <name>Лёгкий шоппер — Грета 210 г/м²</name>
-      <description>Доступная смесовая ткань для больших тиражей, промо и корпоративных комплектов. Материал: Грета. Состав: 70% полиэстер, 30% хлопок. Плотность: 210 г/м². Цена от 110 ₽/шт при тираже 500 шт. Цены по тиражу: 100 шт — 125 ₽/шт; 300 шт — 115 ₽/шт; 500 шт — 110 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ТИХО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
-      <sales_notes>Цена от 110 ₽/шт при тираже 500 шт</sales_notes>
-      <vendor>АЛИДИКА</vendor>
-      <vendorCode>bag-shopper-gretta</vendorCode>
-    </offer>
-    <offer id="bag-shopper-zip-favorit" available="true">
-      <url>https://alidika.ru/catalog/shoppery-optom/</url>
-      <price>180</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>4</categoryId>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/1-main-plain-warm-sand.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/2-small-logo-zapas-dusty-blue.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/3-large-logo-zapas-burgundy.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/4-team-zapas-10-people.png</picture>
-      <name>Плотный шоппер на молнии — Фаворит</name>
-      <description>Закрытая конструкция для подарочных наборов, документов и вещей, которые важно не потерять. Материал: Фаворит. Цена от 180 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 220 ₽/шт; 100 шт — 210 ₽/шт; 300 шт — 200 ₽/шт; 500 шт — 190 ₽/шт; 1000 шт — 180 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ЗАПАС», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
-      <sales_notes>Цена от 180 ₽/шт при тираже 1000 шт</sales_notes>
-      <vendor>АЛИДИКА</vendor>
-      <vendorCode>bag-shopper-zip-favorit</vendorCode>
-    </offer>
-    <offer id="bag-shopper-zip-gretta" available="true">
-      <url>https://alidika.ru/catalog/shoppery-optom/</url>
-      <price>140</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>4</categoryId>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/1-main-plain-soft-lavender.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/2-small-logo-soyuz-pale-sage.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/3-large-logo-soyuz-light-taupe.png</picture>
-      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/4-team-soyuz-10-people.png</picture>
-      <name>Лёгкий шоппер на молнии — Грета</name>
-      <description>Практичная закрытая сумка для массовых корпоративных и событийных комплектов. Материал: Грета. Цена от 140 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 180 ₽/шт; 100 шт — 170 ₽/шт; 300 шт — 160 ₽/шт; 500 шт — 150 ₽/шт; 1000 шт — 140 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СОЮЗ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
-      <sales_notes>Цена от 140 ₽/шт при тираже 1000 шт</sales_notes>
-      <vendor>АЛИДИКА</vendor>
-      <vendorCode>bag-shopper-zip-gretta</vendorCode>
     </offer>
     <offer id="bag-shoulder-oxford600" available="true">
       <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
