@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-10-03 15:30">
+  <shop>
+    <name>АЛИДИКА</name>
+    <company>АЛИДИКА</company>
+    <url>https://alidika.ru/</url>
+    <currencies><currency id="RUR" rate="1"/></currencies>
+    <categories>
+      <category id="1">Футболки</category>
+      <category id="2">Худи, свитшоты и лонгсливы</category>
+      <category id="3">Бомберы</category>
+      <category id="4">Шопперы</category>
+      <category id="5">Сумки и аксессуары</category>
+      <category id="6">Панамы</category>
+    </categories>
+    <offers>
+    <offer id="tshirt-false-mesh-140-sobrano-light-20261002" available="true">
+      <url>https://alidika.ru/catalog/futbolki-optom/</url>
+      <price>270</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v7/1-main-white-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v7/2-small-logo-sobrano-navy-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v7/3-large-logo-sobrano-burgundy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-140-v7/4-team-sobrano-10-people.png</picture>
+      <name>Футболка для сублимации — Ложная сетка 140 г/м²</name>
+      <description>Экономичная лёгкая база для больших тиражей, корпоративного мерча, промо и событий. Белый полиэстер подходит для полноцветной сублимации. Материал: Ложная сетка. Состав: 100% полиэстер. Плотность: 140 г/м². Цена от 270 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 350 ₽/шт; 100 шт — 330 ₽/шт; 200 шт — 310 ₽/шт; 300 шт — 290 ₽/шт; 500 шт — 280 ₽/шт; 1000 шт — 270 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СОБРАНО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 270 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>tshirt-false-mesh-140-sobrano-light-20261002</vendorCode>
+    </offer>
+    <offer id="longsleeve-2thread-ryadom-20261002" available="true">
+      <url>https://alidika.ru/catalog/hudi-svitshoty-optom/</url>
+      <price>800</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>https://alidika.ru/media/vk-market/longsleeve-2thread/card-v9/1-main-premium-pine-studio.png</picture>
+      <picture>https://alidika.ru/media/vk-market/longsleeve-2thread/card-v9/2-small-logo-ryadom-stone-studio.png</picture>
+      <picture>https://alidika.ru/media/vk-market/longsleeve-2thread/card-v9/3-large-logo-ryadom-plum.png</picture>
+      <picture>https://alidika.ru/media/vk-market/longsleeve-2thread/card-v9/4-team-ryadom-10-people.png</picture>
+      <name>Лонгслив для команды — Футер 2-нитка</name>
+      <description>Длинный рукав и лаконичный силуэт: базовый слой для офиса, мероприятий и межсезонья. Материал: Футер 2-нитка. Цена от 800 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 930 ₽/шт; 100 шт — 900 ₽/шт; 200 шт — 870 ₽/шт; 300 шт — 850 ₽/шт; 500 шт — 820 ₽/шт; 1000 шт — 800 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «РЯДОМ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 800 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>longsleeve-2thread-ryadom-20261002</vendorCode>
+    </offer>
+    <offer id="sweatshirt-2thread-teplo-team-20261002" available="true">
+      <url>https://alidika.ru/catalog/hudi-svitshoty-optom/</url>
+      <price>800</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>https://alidika.ru/media/vk-market/sweatshirt-2thread/card-v4/1-main-plain-clay.png</picture>
+      <picture>https://alidika.ru/media/vk-market/sweatshirt-2thread/card-v4/2-small-logo-teplo-sage-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/sweatshirt-2thread/card-v4/3-large-logo-teplo-navy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/sweatshirt-2thread/card-v4/4-team-teplo-10-people.png</picture>
+      <name>Свитшот для команды — Футер 2-нитка</name>
+      <description>Лаконичная модель без капюшона для корпоративной одежды и фирменных капсул. Материал: Футер 2-нитка. Цена от 800 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 930 ₽/шт; 100 шт — 900 ₽/шт; 200 шт — 870 ₽/шт; 300 шт — 850 ₽/шт; 500 шт — 820 ₽/шт; 1000 шт — 800 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ТЕПЛО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 800 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>sweatshirt-2thread-teplo-team-20261002</vendorCode>
+    </offer>
+    <offer id="hoodie-3thread-fleece-svoi-20261002" available="true">
+      <url>https://alidika.ru/catalog/hudi-svitshoty-optom/</url>
+      <price>1600</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/1-plain-premium-cocoa-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/2-small-logo-svoi-dusty-blue-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/3-large-logo-svoi-ivory-airy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-fleece/card-v2/4-team-svoi-10-people.png</picture>
+      <name>Худи с начёсом — Футер 3-нитка с начёсом</name>
+      <description>Плотное и мягкое худи для прохладной погоды, команды и подарочных комплектов. Материал: Футер 3-нитка с начёсом. Цена от 1600 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 1850 ₽/шт; 100 шт — 1800 ₽/шт; 200 шт — 1750 ₽/шт; 300 шт — 1700 ₽/шт; 500 шт — 1650 ₽/шт; 1000 шт — 1600 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СВОИ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 1600 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>hoodie-3thread-fleece-svoi-20261002</vendorCode>
+    </offer>
+    <offer id="bomber-3thread-fleece" available="true">
+      <url>https://alidika.ru/catalog/bombery-optom/</url>
+      <price>1700</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>3</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-fleece/card-v1/1-main-plain-petrol-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-fleece/card-v1/2-small-logo-ladno-stone.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-fleece/card-v1/3-large-logo-ladno-burgundy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-fleece/card-v1/4-team-ladno-10-people.png</picture>
+      <name>Бомбер с начёсом — Футер 3-нитка с начёсом</name>
+      <description>Тёплый собранный верхний слой с воротником, застёжкой и манжетами для фирменной капсулы. Материал: Футер 3-нитка с начёсом. Цена от 1700 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 2300 ₽/шт; 100 шт — 2200 ₽/шт; 300 шт — 2000 ₽/шт; 500 шт — 1800 ₽/шт; 1000 шт — 1700 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ЛАДНО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 1700 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bomber-3thread-fleece</vendorCode>
+    </offer>
+    <offer id="tshirt-false-mesh-220" available="true">
+      <url>https://alidika.ru/catalog/futbolki-optom/</url>
+      <price>320</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-220/card-v1/1-main-plain-mineral-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-220/card-v1/2-small-logo-bereg-lilac.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-220/card-v1/3-large-logo-bereg-ivory.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-false-mesh-220/card-v1/4-team-bereg-10-people.png</picture>
+      <name>Плотная футболка для сублимации — Ложная сетка 220 г/м²</name>
+      <description>Более плотная версия ложной сетки: лучше держит форму и подходит для корпоративной одежды и мерча. Материал: Ложная сетка. Состав: 100% полиэстер. Плотность: 220 г/м². Цена от 320 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 420 ₽/шт; 100 шт — 400 ₽/шт; 200 шт — 380 ₽/шт; 300 шт — 360 ₽/шт; 500 шт — 340 ₽/шт; 1000 шт — 320 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «БЕРЕГ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 320 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>tshirt-false-mesh-220</vendorCode>
+    </offer>
+    <offer id="tshirt-cotton-open-end-140" available="true">
+      <url>https://alidika.ru/catalog/futbolki-optom/</url>
+      <price>330</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-open-end-140/card-v1/1-main-plain-muted-clay.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-open-end-140/card-v1/2-small-logo-krug-sage.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-open-end-140/card-v1/3-large-logo-krug-ivory.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-open-end-140/card-v1/4-team-krug-10-people.png</picture>
+      <name>Хлопковая футболка open-end — Кулирная гладь, open-end 140 г/м²</name>
+      <description>Доступная фактурная хлопковая база для корпоративных комплектов, промо и повседневного мерча. Материал: Кулирная гладь, open-end. Состав: 100% хлопок. Плотность: 140 г/м². Цена от 330 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 370 ₽/шт; 100 шт — 360 ₽/шт; 300 шт — 350 ₽/шт; 500 шт — 340 ₽/шт; 1000 шт — 330 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «КРУГ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 330 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>tshirt-cotton-open-end-140</vendorCode>
+    </offer>
+    <offer id="tshirt-cotton-lycra-peigne-190" available="true">
+      <url>https://alidika.ru/catalog/futbolki-optom/</url>
+      <price>500</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-lycra-peigne-190/card-v1/1-main-plain-red-mahogany.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-lycra-peigne-190/card-v1/2-small-logo-zerno-petrol.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-lycra-peigne-190/card-v1/3-large-logo-zerno-oatmeal.png</picture>
+      <picture>https://alidika.ru/media/vk-market/tshirt-cotton-lycra-peigne-190/card-v1/4-team-zerno-10-people.png</picture>
+      <name>Премиальная хлопковая футболка — Кулирная гладь, пенье 190 г/м²</name>
+      <description>Гладкий прочёсанный хлопок с эластаном: аккуратная поверхность и более плотная посадка для премиального мерча. Материал: Кулирная гладь, пенье. Состав: 92% хлопок, 8% эластан. Плотность: 190 г/м². Цена от 500 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 600 ₽/шт; 100 шт — 580 ₽/шт; 200 шт — 560 ₽/шт; 300 шт — 540 ₽/шт; 500 шт — 520 ₽/шт; 1000 шт — 500 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ЗЕРНО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 500 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>tshirt-cotton-lycra-peigne-190</vendorCode>
+    </offer>
+    <offer id="hoodie-3thread-loopback" available="true">
+      <url>https://alidika.ru/catalog/hudi-svitshoty-optom/</url>
+      <price>1600</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-loopback/card-v1/1-main-plain-pale-stone.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-loopback/card-v1/2-small-logo-volno-dusty-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-loopback/card-v1/3-large-logo-volno-terracotta.png</picture>
+      <picture>https://alidika.ru/media/vk-market/hoodie-3thread-loopback/card-v1/4-team-volno-10-people.png</picture>
+      <name>Худи без начёса — Футер 3-нитка петля</name>
+      <description>Петлевая изнанка без пушистого слоя — для помещений, межсезонья и многослойных комплектов. Материал: Футер 3-нитка петля. Цена от 1600 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 1850 ₽/шт; 100 шт — 1800 ₽/шт; 200 шт — 1750 ₽/шт; 300 шт — 1700 ₽/шт; 500 шт — 1650 ₽/шт; 1000 шт — 1600 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ВОЛЬНО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 1600 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>hoodie-3thread-loopback</vendorCode>
+    </offer>
+    <offer id="bomber-3thread-loopback" available="true">
+      <url>https://alidika.ru/catalog/bombery-optom/</url>
+      <price>1700</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>3</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-loopback/card-v1/1-main-plain-soft-olive.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-loopback/card-v1/2-small-logo-sborka-slate-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-loopback/card-v1/3-large-logo-sborka-warm-sand.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bomber-3thread-loopback/card-v1/4-team-sborka-10-people.png</picture>
+      <name>Бомбер без начёса — Футер 3-нитка петля</name>
+      <description>Плотная петлевая изнанка и аккуратный силуэт — лёгкий верхний слой для команды. Материал: Футер 3-нитка петля. Цена от 1700 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 2300 ₽/шт; 100 шт — 2200 ₽/шт; 300 шт — 2000 ₽/шт; 500 шт — 1800 ₽/шт; 1000 шт — 1700 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СБОРКА», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 1700 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bomber-3thread-loopback</vendorCode>
+    </offer>
+    <offer id="bag-shopper-favorit" available="true">
+      <url>https://alidika.ru/catalog/shoppery-optom/</url>
+      <price>145</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>4</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/1-main-plain-muted-clay.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/2-small-logo-mesto-sage.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/3-large-logo-mesto-ink-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-favorit/card-v1/4-team-mesto-10-people.png</picture>
+      <name>Плотный шоппер — Фаворит 240 г/м²</name>
+      <description>Фаворит плотнее Греты на 30 г/м² и ощущается основательнее — для наборов, выставок и розницы. Материал: Фаворит. Состав: 65% полиэстер, 35% хлопок. Плотность: 240 г/м². Цена от 145 ₽/шт при тираже 1000 шт. Цены по тиражу: 100 шт — 160 ₽/шт; 300 шт — 155 ₽/шт; 500 шт — 150 ₽/шт; 1000 шт — 145 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «МЕСТО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 145 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shopper-favorit</vendorCode>
+    </offer>
+    <offer id="bag-shopper-gretta" available="true">
+      <url>https://alidika.ru/catalog/shoppery-optom/</url>
+      <price>110</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>4</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/1-main-plain-powder-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/2-small-logo-tiho-warm-peach.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/3-large-logo-tiho-forest-green.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-gretta/card-v1/4-team-tiho-10-people.png</picture>
+      <name>Лёгкий шоппер — Грета 210 г/м²</name>
+      <description>Доступная смесовая ткань для больших тиражей, промо и корпоративных комплектов. Материал: Грета. Состав: 70% полиэстер, 30% хлопок. Плотность: 210 г/м². Цена от 110 ₽/шт при тираже 500 шт. Цены по тиражу: 100 шт — 125 ₽/шт; 300 шт — 115 ₽/шт; 500 шт — 110 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ТИХО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 110 ₽/шт при тираже 500 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shopper-gretta</vendorCode>
+    </offer>
+    <offer id="bag-shopper-zip-favorit" available="true">
+      <url>https://alidika.ru/catalog/shoppery-optom/</url>
+      <price>180</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>4</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/1-main-plain-warm-sand.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/2-small-logo-zapas-dusty-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/3-large-logo-zapas-burgundy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-favorit/card-v1/4-team-zapas-10-people.png</picture>
+      <name>Плотный шоппер на молнии — Фаворит</name>
+      <description>Закрытая конструкция для подарочных наборов, документов и вещей, которые важно не потерять. Материал: Фаворит. Цена от 180 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 220 ₽/шт; 100 шт — 210 ₽/шт; 300 шт — 200 ₽/шт; 500 шт — 190 ₽/шт; 1000 шт — 180 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ЗАПАС», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 180 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shopper-zip-favorit</vendorCode>
+    </offer>
+    <offer id="bag-shopper-zip-gretta" available="true">
+      <url>https://alidika.ru/catalog/shoppery-optom/</url>
+      <price>140</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>4</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/1-main-plain-soft-lavender.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/2-small-logo-soyuz-pale-sage.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/3-large-logo-soyuz-light-taupe.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shopper-zip-gretta/card-v1/4-team-soyuz-10-people.png</picture>
+      <name>Лёгкий шоппер на молнии — Грета</name>
+      <description>Практичная закрытая сумка для массовых корпоративных и событийных комплектов. Материал: Грета. Цена от 140 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 180 ₽/шт; 100 шт — 170 ₽/шт; 300 шт — 160 ₽/шт; 500 шт — 150 ₽/шт; 1000 шт — 140 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СОЮЗ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 140 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shopper-zip-gretta</vendorCode>
+    </offer>
+    <offer id="bag-shoulder-oxford600" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>290</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shoulder-oxford600/card-v1/1-main-plain-warm-sand.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoulder-oxford600/card-v1/2-small-logo-put-denim-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoulder-oxford600/card-v1/3-large-logo-put-burgundy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoulder-oxford600/card-v1/4-team-put-10-people.png</picture>
+      <name>Сумка через плечо — Оксфорд 600 ПВХ</name>
+      <description>Плотный Оксфорд с ПВХ-покрытием, регулируемый ремень и компактный формат для документов и мелочей. Материал: Оксфорд 600 ПВХ. Цена от 290 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 350 ₽/шт; 100 шт — 330 ₽/шт; 200 шт — 320 ₽/шт; 300 шт — 310 ₽/шт; 500 шт — 300 ₽/шт; 1000 шт — 290 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ПУТЬ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 290 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shoulder-oxford600</vendorCode>
+    </offer>
+    <offer id="bag-waist-oxford600" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>200</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-waist-oxford600/card-v1/1-main-plain-warm-ivory.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-waist-oxford600/card-v1/2-small-logo-blizhe-petrol.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-waist-oxford600/card-v1/3-large-logo-blizhe-coral.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-waist-oxford600/card-v1/4-team-blizhe-10-people.png</picture>
+      <name>Поясная сумка — Оксфорд 600 ПВХ</name>
+      <description>Свободные руки и быстрый доступ к мелочам — для персонала, мероприятий и поездок. Материал: Оксфорд 600 ПВХ. Цена от 200 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 250 ₽/шт; 100 шт — 240 ₽/шт; 200 шт — 230 ₽/шт; 300 шт — 220 ₽/шт; 500 шт — 210 ₽/шт; 1000 шт — 200 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «БЛИЖЕ», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 200 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-waist-oxford600</vendorCode>
+    </offer>
+    <offer id="backpack-drawstring-oxford600" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>450</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/backpack-drawstring-oxford600/card-v1/1-main-plain-warm-sand.png</picture>
+      <picture>https://alidika.ru/media/vk-market/backpack-drawstring-oxford600/card-v1/2-small-logo-smena-sage.png</picture>
+      <picture>https://alidika.ru/media/vk-market/backpack-drawstring-oxford600/card-v1/3-large-logo-smena-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/backpack-drawstring-oxford600/card-v1/4-team-smena-10-people.png</picture>
+      <name>Рюкзак-мешок — Оксфорд 600 ПВХ</name>
+      <description>Лёгкая затяжка и плотный материал — для welcome-наборов, сменных вещей, поездок и мероприятий. Материал: Оксфорд 600 ПВХ. Цена от 450 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 700 ₽/шт; 100 шт — 650 ₽/шт; 200 шт — 600 ₽/шт; 300 шт — 550 ₽/шт; 500 шт — 500 ₽/шт; 1000 шт — 450 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «СМЕНА», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 450 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>backpack-drawstring-oxford600</vendorCode>
+    </offer>
+    <offer id="bag-shoes-oxford200" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>130</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/bag-shoes-oxford200/card-v1/1-main-plain-powder-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoes-oxford200/card-v1/2-small-logo-poryadok-apricot.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoes-oxford200/card-v1/3-large-logo-poryadok-forest.png</picture>
+      <picture>https://alidika.ru/media/vk-market/bag-shoes-oxford200/card-v1/4-team-poryadok-10-people.png</picture>
+      <name>Мешок для обуви — Оксфорд 200</name>
+      <description>Практичный и экономичный носитель бренда для корпоративных комплектов, хранения и поездок. Материал: Оксфорд 200. Цена от 130 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 155 ₽/шт; 100 шт — 150 ₽/шт; 200 шт — 145 ₽/шт; 300 шт — 140 ₽/шт; 500 шт — 135 ₽/шт; 1000 шт — 130 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ПОРЯДОК», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 130 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>bag-shoes-oxford200</vendorCode>
+    </offer>
+    <offer id="pencil-case-oxford600" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>105</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/pencil-case-oxford600/card-v1/1-main-plain-lavender.png</picture>
+      <picture>https://alidika.ru/media/vk-market/pencil-case-oxford600/card-v1/2-small-logo-tochka-peach.png</picture>
+      <picture>https://alidika.ru/media/vk-market/pencil-case-oxford600/card-v1/3-large-logo-tochka-cobalt.png</picture>
+      <picture>https://alidika.ru/media/vk-market/pencil-case-oxford600/card-v1/4-team-tochka-10-people.png</picture>
+      <name>Текстильный пенал — Оксфорд 600 ПВХ</name>
+      <description>Плотный компактный органайзер для канцелярии и мелочей — дополнение к подарочным и welcome-наборам. Материал: Оксфорд 600 ПВХ. Цена от 105 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 130 ₽/шт; 100 шт — 125 ₽/шт; 200 шт — 120 ₽/шт; 300 шт — 115 ₽/шт; 500 шт — 110 ₽/шт; 1000 шт — 105 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ТОЧКА», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 105 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>pencil-case-oxford600</vendorCode>
+    </offer>
+    <offer id="garment-bag-oxford300" available="true">
+      <url>https://alidika.ru/catalog/sumki-aksessuary-optom/</url>
+      <price>600</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>5</categoryId>
+      <picture>https://alidika.ru/media/vk-market/garment-bag-oxford300/card-v1/1-main-plain-pearl-gray.png</picture>
+      <picture>https://alidika.ru/media/vk-market/garment-bag-oxford300/card-v1/2-small-logo-forma-sage.png</picture>
+      <picture>https://alidika.ru/media/vk-market/garment-bag-oxford300/card-v1/3-large-logo-forma-burgundy.png</picture>
+      <picture>https://alidika.ru/media/vk-market/garment-bag-oxford300/card-v1/4-team-forma-10-people.png</picture>
+      <name>Чехол для одежды — Оксфорд 300</name>
+      <description>Помогает аккуратно хранить и перевозить корпоративную одежду, костюмы и изделия для мероприятий. Материал: Оксфорд 300. Цена от 600 ₽/шт при тираже 500 шт. Цены по тиражу: 50 шт — 700 ₽/шт; 100 шт — 650 ₽/шт; 300 шт — 630 ₽/шт; 500 шт — 600 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ФОРМА», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 600 ₽/шт при тираже 500 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>garment-bag-oxford300</vendorCode>
+    </offer>
+    <offer id="panama-gretta" available="true">
+      <url>https://alidika.ru/catalog/panamy-optom/</url>
+      <price>210</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>6</categoryId>
+      <picture>https://alidika.ru/media/vk-market/panama-gretta/card-v1/1-main-plain-cream-yellow.png</picture>
+      <picture>https://alidika.ru/media/vk-market/panama-gretta/card-v1/2-small-logo-leto-powder-blue.png</picture>
+      <picture>https://alidika.ru/media/vk-market/panama-gretta/card-v1/3-large-logo-leto-coral.png</picture>
+      <picture>https://alidika.ru/media/vk-market/panama-gretta/card-v1/4-team-leto-10-people.png</picture>
+      <name>Панама из ткани грета — Грета</name>
+      <description>Лёгкий заметный аксессуар для летних корпоративных комплектов, промо и поездок. Материал: Грета. Цена от 210 ₽/шт при тираже 1000 шт. Цены по тиражу: 50 шт — 260 ₽/шт; 100 шт — 250 ₽/шт; 200 шт — 240 ₽/шт; 300 шт — 230 ₽/шт; 500 шт — 220 ₽/шт; 1000 шт — 210 ₽/шт. Нанесение выполняем на профессиональном оборудовании: логотипы, надписи и изображения получаются аккуратными, с чёткими деталями и ровным цветом. Подходящую технологию — DTF-печать, сублимацию, шелкографию или вышивку — выбираем под ткань, макет и тираж. Можем разработать фирменный стиль и дизайн нанесения с нуля или подготовить визуальную концепцию ребрендинга. Стоимость нанесения и индивидуальной упаковки рассчитывается отдельно. Первое изображение показывает однотонное изделие без нанесения; второе — вариант с небольшим логотипом; третье — с крупной фирменной композицией; четвёртое — командную концепцию. Бренд «ЛЕТО», логотип и команда созданы как визуальная концепция и не являются фотографией выполненного заказа. Наличие ткани выбранного цвета, макет и итоговую стоимость согласуем перед запуском.</description>
+      <sales_notes>Цена от 210 ₽/шт при тираже 1000 шт</sales_notes>
+      <vendor>АЛИДИКА</vendor>
+      <vendorCode>panama-gretta</vendorCode>
+    </offer>
+    </offers>
+  </shop>
+</yml_catalog>
