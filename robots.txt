@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /furnitura/
 
+Host: alidika.ru
 Sitemap: https://alidika.ru/sitemap.xml
