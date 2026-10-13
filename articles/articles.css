@@ -14,7 +14,7 @@
 .article-hero{padding:38px 0 54px;background:linear-gradient(135deg,#efe6d8,#f8f4ec)}
 .article-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:54px}
 .article-hero h1{font-size:clamp(38px,5.5vw,70px)}
-.article-hero figure{margin:0;overflow:hidden;border-radius:32px;background:#251d17}
+.article-hero figure{margin:0;overflow:hidden;border-radius:32px;background:linear-gradient(135deg,#f6ead9,#c6a982)}
 .article-hero figure img{width:100%;aspect-ratio:4/3;object-fit:contain}
 .article-layout{display:grid;grid-template-columns:minmax(0,780px) minmax(240px,1fr);gap:64px;align-items:start;padding-top:64px;padding-bottom:72px}
 .article-copy{font-size:18px;line-height:1.7}
